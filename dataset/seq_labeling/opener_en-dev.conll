@@ -1,0 +1,4039 @@
+# sent_id=opener_en/kaf/hotel/english00032_30ddf6dff464d0b92c6fbae7019ece91-2
+1	very	B-Positive
+2	warm	I-Positive
+3	welcome	O
+4	at	O
+5	the	O
+6	reception	O
+7	,	O
+8	very	B-Positive
+9	friendly	I-Positive
+10	and	O
+11	helpful	B-Positive
+12	personnel	O
+13	,	O
+14	especially	O
+15	at	O
+16	the	O
+17	bar	O
+18	and	O
+19	during	O
+20	breakfast	O
+21	,	O
+22	a	O
+23	really	B-Positive
+24	good	I-Positive
+25	experience	O
+26	overall	O
+27	,	O
+28	had	O
+29	a	O
+30	relaxing	O
+31	drink	O
+32	at	O
+33	the	O
+34	bar	O
+35	,	O
+36	visited	O
+37	the	O
+38	cigarrum	O
+39	smokers	O
+40	lounge	O
+41	and	O
+42	had	O
+43	a	O
+44	great	O
+45	start	O
+46	into	O
+47	the	O
+48	day	O
+49	at	O
+50	the	O
+51	very	B-Positive
+52	nicely	I-Positive
+53	assorted	I-Positive
+54	breakfast	O
+55	buffet	O
+56	.	O
+
+# sent_id=opener_en/kaf/hotel/english00200_e8f707795fc0c7f605a1f7115c3da711-1
+1	The	O
+2	room	O
+3	is	O
+4	very	B-Negative
+5	small	I-Negative
+6	,	O
+7	about	O
+8	10m2	O
+
+# sent_id=opener_en/kaf/hotel/english00200_e8f707795fc0c7f605a1f7115c3da711-2
+1	Hotel	O
+2	Premiere	O
+3	Classe	O
+4	Orly	O
+5	Rungis	O
+6	is	O
+7	near	B-Negative
+8	the	I-Negative
+9	airport	I-Negative
+10	and	O
+11	close	B-Negative
+12	to	I-Negative
+13	Orly	I-Negative
+14	major	I-Negative
+15	highways	I-Negative
+16	(	O
+17	all	O
+18	night	O
+19	heard	O
+20	the	O
+21	noise	B-Negative
+22	of	I-Negative
+23	passing	I-Negative
+24	large	I-Negative
+25	vehicles	I-Negative
+26	)	O
+27	.	O
+
+# sent_id=opener_en/kaf/hotel/english00200_e8f707795fc0c7f605a1f7115c3da711-4
+1	Near	O
+2	the	O
+3	hotel	O
+4	there	B-Positive
+5	is	I-Positive
+6	a	O
+7	bus	O
+8	stop	O
+9	that	O
+10	goes	O
+11	to	O
+12	the	O
+13	RER	O
+14	station	O
+15	.	O
+
+# sent_id=opener_en/kaf/hotel/english00200_e8f707795fc0c7f605a1f7115c3da711-5
+1	In	O
+2	this	O
+3	area	O
+4	there	B-Positive
+5	is	I-Positive
+6	famous	O
+7	Rungis	O
+8	market	O
+9	,	O
+10	the	O
+11	largest	O
+12	food	O
+13	market	O
+14	in	O
+15	the	O
+16	world	O
+17	.	O
+
+# sent_id=opener_en/kaf/hotel/english00200_e8f707795fc0c7f605a1f7115c3da711-6
+1	Transfer	O
+2	from	O
+3	the	O
+4	airport	O
+5	to	O
+6	the	O
+7	hotel	O
+8	we	O
+9	had	O
+10	a	O
+11	free	B-Positive
+12	(	O
+13	ask	O
+14	about	O
+15	a	O
+16	transfer	O
+17	at	O
+18	the	O
+19	information	O
+20	desk	O
+21	at	O
+22	the	O
+23	airport	O
+24	)	O
+25	.	O
+
+# sent_id=opener_en/kaf/hotel/english00200_e8f707795fc0c7f605a1f7115c3da711-7
+1	Minibus	O
+2	goes	B-Positive
+3	from	I-Positive
+4	the	I-Positive
+5	airport	I-Positive
+6	to	I-Positive
+7	a	I-Positive
+8	hotel	I-Positive
+9	.	O
+
+# sent_id=opener_en/kaf/hotel/english00200_e8f707795fc0c7f605a1f7115c3da711-8
+1	Transfer	O
+2	from	O
+3	hotel	O
+4	to	O
+5	airport	O
+6	·	O
+7	6	B-Negative
+8	Euro.	I-Negative
+
+# sent_id=opener_en/kaf/hotel/english00064_5fe84dfe3d4af6e6b8ef7b2ca8ac6c8f-1
+1	Best	B-Positive
+2	holidays	I-Positive
+3	ever	I-Positive
+4	!	I-Positive
+
+# sent_id=opener_en/kaf/hotel/english00064_5fe84dfe3d4af6e6b8ef7b2ca8ac6c8f-2
+1	Everything	O
+2	was	O
+3	excellent	B-Positive
+4	.	O
+
+# sent_id=opener_en/kaf/hotel/english00064_5fe84dfe3d4af6e6b8ef7b2ca8ac6c8f-3
+1	We	O
+2	enjoyed	B-Positive
+3	the	O
+4	time	O
+5	on	O
+6	the	O
+7	beach	O
+8	and	O
+9	the	O
+10	friendliness	O
+11	of	O
+12	the	O
+13	people	O
+14	working	O
+15	there	O
+16	.	O
+
+# sent_id=opener_en/kaf/hotel/english00064_5fe84dfe3d4af6e6b8ef7b2ca8ac6c8f-4
+1	Fantastic	B-Positive
+2	food	O
+3	,	O
+4	breathtaken	B-Positive
+5	view	O
+6	from	O
+7	the	O
+8	bar	O
+9	.	O
+
+# sent_id=opener_en/kaf/hotel/english00064_5fe84dfe3d4af6e6b8ef7b2ca8ac6c8f-5
+1	Great	B-Positive
+2	music	O
+3	and	O
+4	moments	O
+5	that	O
+6	we	O
+7	will	B-Positive
+8	always	I-Positive
+9	remember	I-Positive
+10	.	O
+
+# sent_id=opener_en/kaf/hotel/english00064_5fe84dfe3d4af6e6b8ef7b2ca8ac6c8f-6
+1	See	O
+2	you	O
+3	next	O
+4	year	O
+5	.	O
+
+# sent_id=opener_en/kaf/hotel/english00210_f4aa2529a7784fec56fad627916db4b7-1
+1	Overnight	O
+
+# sent_id=opener_en/kaf/hotel/english00210_f4aa2529a7784fec56fad627916db4b7-2
+1	We	O
+2	stayed	O
+3	in	O
+4	this	O
+5	hotel	O
+6	as	O
+7	we	O
+8	arrived	O
+9	quite	O
+10	late	O
+11	in	O
+12	the	O
+13	day	O
+14	on	O
+15	out	O
+16	inbound	O
+17	flight	O
+18	from	O
+19	our	O
+20	summer	O
+21	holiday	O
+22	.	O
+
+# sent_id=opener_en/kaf/hotel/english00210_f4aa2529a7784fec56fad627916db4b7-3
+1	It	O
+2	is	O
+3	situated	B-Positive
+4	in	I-Positive
+5	Frankfurt	I-Positive
+6	Flughaven	I-Positive
+7	railway	I-Positive
+8	station	I-Positive
+9	,	O
+10	so	O
+11	as	O
+12	one	O
+13	might	O
+14	expect	O
+15	transport	O
+16	connections	O
+17	are	O
+18	superb	B-Positive
+19	.	O
+
+# sent_id=opener_en/kaf/hotel/english00210_f4aa2529a7784fec56fad627916db4b7-4
+1	The	O
+2	check	O
+3	in	O
+4	was	O
+5	quick	B-Positive
+6	and	O
+7	efficient	B-Positive
+8	,	O
+9	just	O
+10	what	O
+11	you	O
+12	need	O
+13	after	O
+14	a	O
+15	long	O
+16	flight	O
+17	.	O
+
+# sent_id=opener_en/kaf/hotel/english00210_f4aa2529a7784fec56fad627916db4b7-5
+1	The	O
+2	room	O
+3	was	O
+4	adequate	B-Positive
+5	.	O
+
+# sent_id=opener_en/kaf/hotel/english00210_f4aa2529a7784fec56fad627916db4b7-6
+1	We	O
+2	ordered	O
+3	room	O
+4	service	O
+5	.	O
+
+# sent_id=opener_en/kaf/hotel/english00210_f4aa2529a7784fec56fad627916db4b7-7
+1	The	O
+2	food	O
+3	came	B-Positive
+4	quickly	I-Positive
+5	,	O
+6	was	O
+7	hot	B-Positive
+8	,	O
+9	tasty	B-Positive
+10	,	O
+11	and	O
+12	expensive	B-Negative
+13	,	O
+14	very	B-Negative
+15	expensive	I-Negative
+16	.	O
+
+# sent_id=opener_en/kaf/hotel/english00210_f4aa2529a7784fec56fad627916db4b7-8
+1	Over	B-Negative
+2	40	I-Negative
+3	Euros	I-Negative
+4	for	I-Negative
+5	a	I-Negative
+6	pizza	I-Negative
+7	,	I-Negative
+8	burger	I-Negative
+9	and	I-Negative
+10	two	I-Negative
+11	drinks	I-Negative
+12	.	O
+
+# sent_id=opener_en/kaf/hotel/english00210_f4aa2529a7784fec56fad627916db4b7-9
+1	However	O
+2	the	O
+3	room	O
+4	only	B-Positive
+5	cost	I-Positive
+6	75	I-Positive
+7	Euros	I-Positive
+8	for	O
+9	the	O
+10	night	O
+11	.	O
+
+# sent_id=opener_en/kaf/hotel/english00070_4b333078625224037956975e6fba0e41-1
+1	One	B-Positive
+2	of	I-Positive
+3	the	I-Positive
+4	cleanest	I-Positive
+5	Travelodges	O
+6	I	O
+7	've	O
+8	been	O
+9	to	O
+10	!	O
+
+# sent_id=opener_en/kaf/hotel/english00070_4b333078625224037956975e6fba0e41-2
+1	This	O
+2	Travelodge	O
+3	is	O
+4	well	B-Positive
+5	placed	I-Positive
+6	in	I-Positive
+7	the	I-Positive
+8	City	I-Positive
+9	Centre	I-Positive
+10	and	O
+11	a	O
+12	short	B-Positive
+13	walk	I-Positive
+14	from	I-Positive
+15	the	I-Positive
+16	station	I-Positive
+17	and	O
+18	a	O
+19	short	B-Positive
+20	walk	I-Positive
+21	to	I-Positive
+22	the	I-Positive
+23	shops	I-Positive
+24	,	I-Positive
+25	restaurants	I-Positive
+26	etc.	I-Positive
+27	that	O
+28	Leeds	O
+29	has	O
+30	to	O
+31	offer	O
+32	.	O
+
+# sent_id=opener_en/kaf/hotel/english00070_4b333078625224037956975e6fba0e41-3
+1	The	O
+2	rooms	O
+3	are	O
+4	one	B-Positive
+5	of	I-Positive
+6	the	I-Positive
+7	cleanest	I-Positive
+8	Travelodges	O
+9	I	O
+10	've	O
+11	been	O
+12	too	O
+13	however	O
+14	the	O
+15	corridors	O
+16	and	O
+17	reception	O
+18	area	O
+19	is	O
+20	a	B-Negative
+21	little	I-Negative
+22	rough	I-Negative
+23	from	O
+24	all	O
+25	of	O
+26	the	O
+27	Hen	O
+28	/	O
+29	Stag	O
+30	weekend	O
+31	traffic	O
+32	.	O
+
+# sent_id=opener_en/kaf/hotel/english00070_4b333078625224037956975e6fba0e41-4
+1	There	O
+2	were	O
+3	a	O
+4	few	O
+5	Stag	O
+6	weekenders	O
+7	checking	O
+8	in	O
+9	when	O
+10	we	O
+11	were	O
+12	however	O
+13	we	O
+14	didn	B-Positive
+15	't	I-Positive
+16	experience	I-Positive
+17	any	O
+18	noise	O
+19	or	O
+20	unpleasantness	O
+21	that	O
+22	would	O
+23	stop	O
+24	us	O
+25	from	O
+26	coming	O
+27	back	O
+28	in	O
+29	the	O
+30	future	O
+31	for	O
+32	our	O
+33	city	O
+34	breaks	O
+35	to	O
+36	Leeds	O
+37	.	O
+
+# sent_id=opener_en/kaf/hotel/english00070_4b333078625224037956975e6fba0e41-5
+1	It	O
+2	a	O
+3	good	B-Positive
+4	location	O
+5	,	O
+6	basic	B-Positive
+7	,	O
+8	clean	B-Positive
+9	and	O
+10	thats	O
+11	all	O
+12	I	O
+13	can	B-Positive
+14	ask	I-Positive
+15	for	I-Positive
+16	for	I-Positive
+17	the	I-Positive
+18	price	I-Positive
+19	.	O
+
+# sent_id=opener_en/kaf/hotel/english00170_ce1f9b38f0bec2250f15e8b855713ffd-1
+1	Excellent	B-Positive
+2	beach	O
+3	resort	O
+
+# sent_id=opener_en/kaf/hotel/english00170_ce1f9b38f0bec2250f15e8b855713ffd-2
+1	Very	B-Positive
+2	large	I-Positive
+3	resort	O
+4	hotel	O
+5	but	O
+6	we	O
+7	were	O
+8	upgraded	O
+9	to	O
+10	suites	O
+11	on	O
+12	arrival	O
+13	,	O
+14	however	O
+15	these	O
+16	were	O
+17	an	O
+18	extremely	B-Negative
+19	long	I-Negative
+20	walk	I-Negative
+21	from	I-Negative
+22	the	I-Negative
+23	restaurant	I-Negative
+24	/	I-Negative
+25	reception	I-Negative
+26	approx	O
+27	500	O
+28	metres	O
+29	.	O
+
+# sent_id=opener_en/kaf/hotel/english00170_ce1f9b38f0bec2250f15e8b855713ffd-3
+1	When	O
+2	walking	O
+3	problem	O
+4	were	O
+5	presented	O
+6	to	O
+7	the	O
+8	General	O
+9	Manager	O
+10	Mr	O
+11	Y.	O
+12	A.	O
+13	we	O
+14	were	O
+15	moved	O
+16	to	O
+17	two	O
+18	adjacent	O
+19	family	O
+20	rooms	O
+21	closer	O
+22	to	O
+23	these	O
+24	facilities	O
+25	and	O
+26	also	O
+27	given	O
+28	the	O
+29	blue	O
+30	bands	O
+31	allocated	O
+32	to	O
+33	repeat	O
+34	visitors	O
+35	,	O
+36	he	O
+37	could	B-Positive
+38	not	I-Positive
+39	have	I-Positive
+40	been	I-Positive
+41	more	I-Positive
+42	helpful	I-Positive
+43	.	O
+
+# sent_id=opener_en/kaf/hotel/english00170_ce1f9b38f0bec2250f15e8b855713ffd-4
+1	It	O
+2	is	O
+3	a	O
+4	shame	O
+5	that	O
+6	given	O
+7	such	O
+8	ehormous	O
+9	pool	O
+10	area	O
+11	there	O
+12	is	O
+13	more	O
+14	unheated	O
+15	than	O
+16	heated	O
+17	and	O
+18	that	O
+19	would	O
+20	be	O
+21	my	O
+22	only	O
+23	complaint	O
+24	about	O
+25	the	O
+26	actual	O
+27	hotel	O
+28	facilities	O
+29	.	O
+
+# sent_id=opener_en/kaf/hotel/english00170_ce1f9b38f0bec2250f15e8b855713ffd-5
+1	I	O
+2	would	B-Positive
+3	highly	I-Positive
+4	recommend	I-Positive
+5	this	O
+6	resort	O
+7	especially	O
+8	compared	O
+9	with	O
+10	ones	O
+11	in	O
+12	Sharm	O
+13	.	O
+
+# sent_id=opener_en/kaf/hotel/english00012_0d83dca3caeaaf8eceffcae22ebf53b6-1
+1	Tip	O
+2	top	O
+3	·	O
+4	top	O
+5	tip	O
+6	!	O
+
+# sent_id=opener_en/kaf/hotel/english00012_0d83dca3caeaaf8eceffcae22ebf53b6-2
+1	I	O
+2	have	O
+3	to	O
+4	say	O
+5	that	O
+6	I	O
+7	've	O
+8	had	O
+9	a	O
+10	very	B-Positive
+11	nice	I-Positive
+12	holiday	O
+13	in	O
+14	this	O
+15	hotel	O
+16	.	O
+
+# sent_id=opener_en/kaf/hotel/english00012_0d83dca3caeaaf8eceffcae22ebf53b6-3
+1	Everybody	O
+2	was	O
+3	very	B-Positive
+4	kind	I-Positive
+5	and	O
+6	friendly	B-Positive
+7	.	O
+
+# sent_id=opener_en/kaf/hotel/english00012_0d83dca3caeaaf8eceffcae22ebf53b6-4
+1	Especially	O
+2	the	O
+3	team	O
+4	of	O
+5	the	O
+6	main	O
+7	restaurant	O
+8	was	O
+9	really	B-Positive
+10	professionell	I-Positive
+11	and	O
+12	nice	B-Positive
+13	.	O
+
+# sent_id=opener_en/kaf/hotel/english00012_0d83dca3caeaaf8eceffcae22ebf53b6-5
+1	I	O
+2	felt	O
+3	like	O
+4	a	O
+5	princess	O
+6	,	O
+7	sometimes	O
+8	;	O
+9	·	O
+10	)	O
+11	!	O
+
+# sent_id=opener_en/kaf/hotel/english00012_0d83dca3caeaaf8eceffcae22ebf53b6-6
+1	Thank	O
+2	you	O
+3	very	O
+4	much	O
+5	everybody	O
+6	!	O
+
+# sent_id=opener_en/kaf/hotel/english00012_0d83dca3caeaaf8eceffcae22ebf53b6-7
+1	I	O
+2	will	B-Positive
+3	come	I-Positive
+4	back	I-Positive
+5	there	O
+6	.	O
+
+# sent_id=opener_en/kaf/hotel/english00110_7a012157f787f3c49871371b3f64b382-1
+1	Business	O
+2	and	O
+3	shopping	O
+
+# sent_id=opener_en/kaf/hotel/english00110_7a012157f787f3c49871371b3f64b382-2
+1	Very	B-Positive
+2	warm	I-Positive
+3	comfortable	B-Positive
+4	friendly	B-Positive
+5	hotel	O
+6	.	O
+
+# sent_id=opener_en/kaf/hotel/english00110_7a012157f787f3c49871371b3f64b382-3
+1	Near	B-Positive
+2	Milano	I-Positive
+3	Centrale	I-Positive
+4	train	I-Positive
+5	station	I-Positive
+6	with	B-Positive
+7	bus	I-Positive
+8	stop	I-Positive
+9	to	I-Positive
+10	all	I-Positive
+11	airports	I-Positive
+12	.	O
+
+# sent_id=opener_en/kaf/hotel/english00110_7a012157f787f3c49871371b3f64b382-4
+1	It	O
+2	takes	O
+3	20	O
+4	min.	O
+5	to	O
+6	get	O
+7	to	O
+8	Corso	O
+9	Buenos	O
+10	Aires	O
+11	where	O
+12	you	O
+13	can	O
+14	find	O
+15	very	O
+16	nice	O
+17	shops	O
+18	.	O
+
+# sent_id=opener_en/kaf/hotel/english00110_7a012157f787f3c49871371b3f64b382-5
+1	At	O
+2	the	O
+3	hotel	O
+4	:	O
+5	rooms	O
+6	are	O
+7	not	B-Negative
+8	big	I-Negative
+9	,	O
+10	but	O
+11	nice	B-Positive
+12	and	O
+13	clean	B-Positive
+14	(	O
+15	I	O
+16	was	O
+17	at	O
+18	this	O
+19	hotel	O
+20	several	O
+21	times	O
+22	and	O
+23	saw	O
+24	different	O
+25	rooms	O
+26	)	O
+27	,	O
+28	clean	B-Positive
+29	comfortable	B-Positive
+30	bathrooms	O
+31	.	O
+
+# sent_id=opener_en/kaf/hotel/english00110_7a012157f787f3c49871371b3f64b382-6
+1	I	O
+2	prefer	B-Positive
+3	stay	O
+4	at	O
+5	this	O
+6	hotel	O
+7	,	O
+8	when	O
+9	they	O
+10	have	O
+11	free	O
+12	rooms	O
+13	.	O
+
+# sent_id=opener_en/kaf/hotel/english00051_496c24f962c80bf3bb9efff898020602-1
+1	Cheap	B-Positive
+2	,	O
+3	but	O
+4	miserable	B-Negative
+
+# sent_id=opener_en/kaf/hotel/english00051_496c24f962c80bf3bb9efff898020602-2
+1	I	O
+2	requested	O
+3	a	O
+4	non	O
+5	·	O
+6	smoking	O
+7	room	O
+8	,	O
+9	only	O
+10	to	O
+11	find	B-Negative
+12	a	I-Negative
+13	cigarette	I-Negative
+14	in	I-Negative
+15	the	I-Negative
+16	toilet	I-Negative
+17	.	O
+
+# sent_id=opener_en/kaf/hotel/english00051_496c24f962c80bf3bb9efff898020602-3
+1	After	O
+2	calling	O
+3	reception	O
+4	,	O
+5	they	O
+6	offered	B-Positive
+7	me	O
+8	an	O
+9	upgrade	O
+10	.	O
+
+# sent_id=opener_en/kaf/hotel/english00051_496c24f962c80bf3bb9efff898020602-4
+1	This	O
+2	however	O
+3	requires	B-Negative
+4	walking	I-Negative
+5	all	I-Negative
+6	around	I-Negative
+7	the	I-Negative
+8	hotel	I-Negative
+9	,	O
+10	and	O
+11	there	B-Negative
+12	is	I-Negative
+13	only	I-Negative
+14	one	I-Negative
+15	set	O
+16	of	O
+17	elevators	O
+18	for	O
+19	each	O
+20	floor	O
+21	(	O
+22	the	O
+23	hotel	O
+24	is	O
+25	a	B-Negative
+26	pyramid	I-Negative
+27	,	O
+28	and	O
+29	the	O
+30	elevators	O
+31	are	O
+32	only	B-Negative
+33	in	I-Negative
+34	one	I-Negative
+35	corner	I-Negative
+36	)	O
+37	.	O
+
+# sent_id=opener_en/kaf/hotel/english00051_496c24f962c80bf3bb9efff898020602-5
+1	The	O
+2	food	O
+3	was	O
+4	expensive	B-Negative
+5	.	O
+
+# sent_id=opener_en/kaf/hotel/english00051_496c24f962c80bf3bb9efff898020602-6
+1	And	O
+2	my	O
+3	salad	O
+4	was	O
+5	a	O
+6	dressing	O
+7	soup	O
+8	topped	O
+9	with	O
+10	some	O
+11	lettuce	O
+12	.	O
+
+# sent_id=opener_en/kaf/hotel/english00071_6901a988b452abe791e088abe8e7dd83-1
+1	Location	O
+2	of	O
+3	the	O
+4	hotel	O
+5	and	O
+6	dinner	O
+7	excellent	B-Positive
+
+# sent_id=opener_en/kaf/hotel/english00071_6901a988b452abe791e088abe8e7dd83-2
+1	·	O
+2	small	B-Negative
+3	rooms	O
+4	but	O
+5	a	O
+6	big	B-Positive
+7	balcony	O
+8	in	O
+9	rooms	O
+10	with	B-Positive
+11	seasight	I-Positive
+
+# sent_id=opener_en/kaf/hotel/english00071_6901a988b452abe791e088abe8e7dd83-3
+1	·	O
+2	breakfeast	O
+3	(	O
+4	buffet	O
+5	)	O
+6	is	O
+7	good	B-Positive
+8	,	O
+9	dinner	O
+10	is	O
+11	excellent	B-Positive
+
+# sent_id=opener_en/kaf/hotel/english00071_6901a988b452abe791e088abe8e7dd83-4
+1	·	O
+2	bathroom	O
+3	small	B-Positive
+4	,	O
+5	but	O
+6	clean	B-Positive
+
+# sent_id=opener_en/kaf/hotel/english00071_6901a988b452abe791e088abe8e7dd83-5
+1	·	O
+2	matras	O
+3	familyroom	O
+4	was	O
+5	hard	O
+6	and	O
+7	bad	O
+8	in	O
+9	the	O
+10	single	O
+11	room	O
+
+# sent_id=opener_en/kaf/hotel/english00071_6901a988b452abe791e088abe8e7dd83-6
+1	·	O
+2	Dutch	O
+3	;	O
+4	42	O
+5	,	O
+6	66	O
+7	and	O
+8	67	O
+9	years	O
+
+# sent_id=opener_en/kaf/hotel/english00071_6901a988b452abe791e088abe8e7dd83-7
+1	·	O
+2	wifi	O
+3	is	O
+4	free	B-Positive
+
+# sent_id=opener_en/kaf/hotel/english00122_b509ee1b998f3418b1fd4a8096880441-1
+1	Stay	O
+2	was	O
+3	too	B-Negative
+4	short	I-Negative
+
+# sent_id=opener_en/kaf/hotel/english00122_b509ee1b998f3418b1fd4a8096880441-2
+1	I	O
+2	stayed	O
+3	at	O
+4	the	O
+5	hotel	O
+6	for	O
+7	only	O
+8	2	O
+9	nights	O
+10	.	O
+
+# sent_id=opener_en/kaf/hotel/english00122_b509ee1b998f3418b1fd4a8096880441-3
+1	The	O
+2	staff	O
+3	was	O
+4	exceptionally	B-Positive
+5	friendly	I-Positive
+6	and	O
+7	helpful	B-Positive
+8	.	O
+
+# sent_id=opener_en/kaf/hotel/english00122_b509ee1b998f3418b1fd4a8096880441-4
+1	Breakfast	O
+2	was	O
+3	perfect	B-Positive
+4	with	O
+5	a	O
+6	nice	B-Positive
+7	variety	O
+8	.	O
+
+# sent_id=opener_en/kaf/hotel/english00122_b509ee1b998f3418b1fd4a8096880441-5
+1	Hope	O
+2	to	O
+3	return	O
+4	to	O
+5	the	O
+6	area	O
+7	soon	O
+8	and	O
+9	will	O
+10	definently	B-Positive
+11	try	I-Positive
+12	and	O
+13	stay	B-Positive
+14	here	I-Positive
+15	again	I-Positive
+16	.	O
+
+# sent_id=opener_en/kaf/hotel/english00118_aea36867626915cb3f94bc7c17ec5bb9-1
+1	Steigenberger	O
+2	Airport	O
+3	Hotel	O
+4	Frankfurt	O
+
+# sent_id=opener_en/kaf/hotel/english00118_aea36867626915cb3f94bc7c17ec5bb9-2
+1	The	O
+2	staff	O
+3	is	O
+4	very	B-Positive
+5	friendly	I-Positive
+6	,	O
+7	prompt	B-Positive
+8	and	O
+9	courteous	B-Positive
+10	.	O
+
+# sent_id=opener_en/kaf/hotel/english00118_aea36867626915cb3f94bc7c17ec5bb9-3
+1	Check	O
+2	·	O
+3	in	O
+4	/	O
+5	Check	O
+6	·	O
+7	out	O
+8	was	O
+9	a	B-Positive
+10	piece	I-Positive
+11	of	I-Positive
+12	cake	I-Positive
+13	.	O
+
+# sent_id=opener_en/kaf/hotel/english00118_aea36867626915cb3f94bc7c17ec5bb9-4
+1	I	O
+2	got	B-Positive
+3	an	O
+4	upgrade	O
+5	to	O
+6	Executive	O
+7	suite	O
+8	at	B-Positive
+9	no	I-Positive
+10	cost	I-Positive
+11	.	O
+
+# sent_id=opener_en/kaf/hotel/english00118_aea36867626915cb3f94bc7c17ec5bb9-5
+1	Outbeaten	B-Positive
+2	cleanliness	O
+3	noticed	O
+4	from	O
+5	lobby	O
+6	to	O
+7	room	O
+8	.	O
+
+# sent_id=opener_en/kaf/hotel/english00118_aea36867626915cb3f94bc7c17ec5bb9-6
+1	I	O
+2	was	B-Positive
+3	impressed	I-Positive
+4	with	O
+5	the	O
+6	breakfast	O
+7	selection	O
+8	.	O
+
+# sent_id=opener_en/kaf/hotel/english00180_d5ec496d5858acfbab77283dd350b0ec-1
+1	Great	B-Positive
+2	place	O
+3	,	O
+4	friendly	B-Positive
+5	and	O
+6	efficient	B-Positive
+7	staff	O
+
+# sent_id=opener_en/kaf/hotel/english00180_d5ec496d5858acfbab77283dd350b0ec-2
+1	stayed	O
+2	for	O
+3	a	O
+4	weekend	O
+5	,	O
+6	good	B-Positive
+7	location	O
+8	between	O
+9	village	O
+10	and	O
+11	beach	O
+12	,	O
+13	accepts	B-Positive
+14	dogs	O
+15	·	O
+16	a	O
+17	must	O
+18	for	O
+19	us	O
+20	,	O
+21	great	B-Positive
+22	staff	O
+23	,	O
+24	very	B-Positive
+25	helpful	I-Positive
+
+# sent_id=opener_en/kaf/hotel/english00180_d5ec496d5858acfbab77283dd350b0ec-3
+1	the	O
+2	car	O
+3	park	O
+4	gets	O
+5	a	B-Negative
+6	little	I-Negative
+7	busy	I-Negative
+8	when	O
+9	there	O
+10	is	O
+11	a	O
+12	function	O
+13	on	O
+14	,	O
+15	but	O
+16	all	O
+17	worked	O
+18	out	O
+19	with	O
+20	a	O
+21	bit	O
+22	of	O
+23	cooperation	O
+24	;	O
+25	the	O
+26	breakfast	O
+27	times	O
+28	are	O
+29	fine	B-Positive
+30	during	O
+31	the	O
+32	week	O
+33	but	O
+34	I	O
+35	would	B-Negative
+36	have	I-Negative
+37	preferred	I-Negative
+38	a	O
+39	little	O
+40	later	O
+41	cut	O
+42	off	O
+43	on	O
+44	Sunday	O
+45	·	O
+46	again	O
+47	the	O
+48	staff	O
+49	sorted	B-Positive
+50	it	I-Positive
+51	to	I-Positive
+52	everýone	I-Positive
+53	's	I-Positive
+54	satisfaction	I-Positive
+55	.	O
+
+# sent_id=opener_en/kaf/hotel/english00180_d5ec496d5858acfbab77283dd350b0ec-4
+1	We	O
+2	had	O
+3	a	O
+4	groundfloor	O
+5	room	O
+6	so	O
+7	access	O
+8	for	O
+9	my	O
+10	scootmobile	O
+11	was	O
+12	no	B-Positive
+13	problem	I-Positive
+14	and	O
+15	parking	O
+16	of	O
+17	the	O
+18	scootmobile	O
+19	was	O
+20	also	O
+21	sorted	B-Positive
+22	without	I-Positive
+23	any	I-Positive
+24	fuss	I-Positive
+25	·	O
+26	a	O
+27	great	B-Positive
+28	team	O
+29	,	O
+30	staff	O
+31	and	O
+32	management	O
+33	.	O
+
+# sent_id=opener_en/kaf/hotel/english00016_1bf091a4517b245ddc05ed2efd135973-1
+1	Very	B-Positive
+2	nice	I-Positive
+3	hotel	I-Positive
+4	!	I-Positive
+
+# sent_id=opener_en/kaf/hotel/english00016_1bf091a4517b245ddc05ed2efd135973-2
+1	The	O
+2	hotel	O
+3	was	O
+4	very	B-Positive
+5	nice	I-Positive
+6	,	O
+7	I	O
+8	think	O
+9	it	O
+10	's	O
+11	good	O
+12	that	O
+13	they	O
+14	have	B-Positive
+15	like	O
+16	5	O
+17	restaurants	O
+18	so	O
+19	the	O
+20	people	O
+21	are	O
+22	spread	B-Positive
+23	over	I-Positive
+24	5	I-Positive
+25	restaurants	I-Positive
+26	so	O
+27	it	O
+28	's	O
+29	never	B-Positive
+30	so	I-Positive
+31	crowded	I-Positive
+32	.	O
+
+# sent_id=opener_en/kaf/hotel/english00016_1bf091a4517b245ddc05ed2efd135973-3
+1	But	O
+2	on	O
+3	the	O
+4	other	O
+5	hand	O
+6	I	O
+7	missed	B-Negative
+8	the	O
+9	a	O
+10	la	O
+11	carte	O
+12	restaurants	O
+13	that	O
+14	you	O
+15	have	O
+16	in	O
+17	so	O
+18	many	O
+19	hotels	O
+20	because	O
+21	that	O
+22	's	O
+23	more	B-Positive
+24	pleasant	I-Positive
+25	/	O
+26	cosy	B-Positive
+27	.	O
+
+# sent_id=opener_en/kaf/hotel/english00016_1bf091a4517b245ddc05ed2efd135973-4
+1	The	O
+2	hotel	O
+3	is	O
+4	very	B-Positive
+5	clean	I-Positive
+6	!	I-Positive
+
+# sent_id=opener_en/kaf/hotel/english00016_1bf091a4517b245ddc05ed2efd135973-5
+1	The	O
+2	food	O
+3	was	O
+4	very	B-Positive
+5	good	I-Positive
+6	,	O
+7	I	O
+8	especially	O
+9	liked	O
+10	the	O
+11	breakfast	O
+12	because	O
+13	there	B-Positive
+14	were	I-Positive
+15	a	I-Positive
+16	lot	I-Positive
+17	of	I-Positive
+18	different	I-Positive
+19	kinds	I-Positive
+20	of	I-Positive
+21	cheese	O
+22	,	O
+23	and	O
+24	for	O
+25	dinner	O
+26	the	O
+27	Asian	O
+28	restaurant	O
+29	is	O
+30	my	O
+31	favorite	O
+32	.	O
+
+# sent_id=opener_en/kaf/hotel/english00016_1bf091a4517b245ddc05ed2efd135973-6
+1	There	O
+2	are	O
+3	mainly	O
+4	German	O
+5	people	O
+6	in	O
+7	the	O
+8	hotel	O
+9	(	O
+10	I	O
+11	think	O
+12	70	O
+13	/	O
+14	80	O
+15	percent	O
+16	)	O
+
+# sent_id=opener_en/kaf/hotel/english00016_1bf091a4517b245ddc05ed2efd135973-7
+1	But	O
+2	what	O
+3	I	O
+4	really	B-Negative
+5	didn	I-Negative
+6	't	I-Negative
+7	like	I-Negative
+8	was	O
+9	the	O
+10	music	O
+11	in	O
+12	the	O
+13	lobby	O
+14	bar	O
+15	en	O
+16	all	O
+17	the	O
+18	other	O
+19	bars	O
+20	,	O
+21	way	O
+22	to	O
+23	old	O
+24	!	O
+
+# sent_id=opener_en/kaf/hotel/english00016_1bf091a4517b245ddc05ed2efd135973-8
+1	I	O
+2	hope	O
+3	that	O
+4	next	O
+5	time	O
+6	thay	O
+7	have	O
+8	an	O
+9	area	O
+10	with	O
+11	modern	O
+12	music	O
+
+# sent_id=opener_en/kaf/hotel/english00072_4cc2e9801df78f120125f41eac84ee35-1
+1	Le	O
+2	Méridien	O
+3	Munich	O
+
+# sent_id=opener_en/kaf/hotel/english00072_4cc2e9801df78f120125f41eac84ee35-2
+1	We	O
+2	have	O
+3	stayed	O
+4	in	O
+5	this	O
+6	hotel	O
+7	for	O
+8	4	O
+9	nights	O
+10	recently	O
+11	.	O
+
+# sent_id=opener_en/kaf/hotel/english00072_4cc2e9801df78f120125f41eac84ee35-3
+1	Our	O
+2	room	O
+3	was	O
+4	a	O
+5	city	B-Negative
+6	view	I-Negative
+7	room	I-Negative
+8	facing	I-Negative
+9	Street	I-Negative
+10	..	O
+11	So	O
+12	from	O
+13	a	O
+14	view	O
+15	perspective	O
+16	,	O
+17	there	B-Negative
+18	is	I-Negative
+19	nothing	I-Negative
+20	that	O
+21	we	O
+22	can	O
+23	wow	O
+24	about	O
+25	!!!	O
+
+# sent_id=opener_en/kaf/hotel/english00072_4cc2e9801df78f120125f41eac84ee35-4
+1	The	O
+2	decor	O
+3	of	O
+4	the	O
+5	hotel	O
+6	is	O
+7	very	B-Negative
+8	old	I-Negative
+9	just	O
+10	another	O
+11	3	B-Negative
+12	star	I-Negative
+13	hotel	I-Negative
+14	standard	I-Negative
+15	!!!	I-Negative
+
+# sent_id=opener_en/kaf/hotel/english00072_4cc2e9801df78f120125f41eac84ee35-5
+1	Nothing	B-Negative
+2	special	I-Negative
+3	!!!	I-Negative
+
+# sent_id=opener_en/kaf/hotel/english00072_4cc2e9801df78f120125f41eac84ee35-6
+1	The	O
+2	room	O
+3	does	O
+4	have	B-Positive
+5	a	O
+6	LCD	O
+7	TV	O
+8	,	O
+9	i	O
+10	will	B-Negative
+11	not	I-Negative
+12	stay	I-Negative
+13	in	I-Negative
+14	this	I-Negative
+15	Hotel	I-Negative
+16	Again	I-Negative
+17	.	O
+
+# sent_id=opener_en/kaf/hotel/english00225_ffb11fd9fc93b3b74cde6a9dcb91be15-1
+1	Expensive	B-Negative
+2	airport	O
+3	hotel	O
+
+# sent_id=opener_en/kaf/hotel/english00225_ffb11fd9fc93b3b74cde6a9dcb91be15-2
+1	Basic	B-Negative
+2	Sheraton	O
+3	below	B-Negative
+4	my	I-Negative
+5	expectations	I-Negative
+6	.	O
+
+# sent_id=opener_en/kaf/hotel/english00225_ffb11fd9fc93b3b74cde6a9dcb91be15-3
+1	Free	B-Positive
+2	shuttle	O
+3	bus	O
+4	to	O
+5	/	O
+6	from	O
+7	the	O
+8	airport	O
+9	.	O
+
+# sent_id=opener_en/kaf/hotel/english00225_ffb11fd9fc93b3b74cde6a9dcb91be15-4
+1	Bell	O
+2	staff	O
+3	very	B-Positive
+4	good	I-Positive
+5	and	O
+6	helpfull	B-Positive
+7	.	O
+
+# sent_id=opener_en/kaf/hotel/english00225_ffb11fd9fc93b3b74cde6a9dcb91be15-5
+1	Rooms	O
+2	recently	B-Positive
+3	refurbished	I-Positive
+4	but	O
+5	not	B-Negative
+6	in	I-Negative
+7	acordance	I-Negative
+8	of	I-Negative
+9	today	I-Negative
+10	's	I-Negative
+11	traveller	I-Negative
+
+# sent_id=opener_en/kaf/hotel/english00225_ffb11fd9fc93b3b74cde6a9dcb91be15-6
+1	Some	O
+2	staff	O
+3	does	B-Negative
+4	not	I-Negative
+5	speak	I-Negative
+6	any	I-Negative
+7	English	I-Negative
+8	at	I-Negative
+9	all	I-Negative
+10	!!	I-Negative
+
+# sent_id=opener_en/kaf/hotel/english00225_ffb11fd9fc93b3b74cde6a9dcb91be15-7
+1	Pool	O
+2	area	O
+3	dated	B-Negative
+
+# sent_id=opener_en/kaf/hotel/english00225_ffb11fd9fc93b3b74cde6a9dcb91be15-8
+1	Lounge	O
+2	very	B-Negative
+3	poor	I-Negative
+4	.	O
+
+# sent_id=opener_en/kaf/hotel/english00225_ffb11fd9fc93b3b74cde6a9dcb91be15-9
+1	After	B-Negative
+2	breakfast	I-Negative
+3	no	I-Negative
+4	meals	I-Negative
+5	or	I-Negative
+6	drinks	I-Negative
+7	offered	I-Negative
+8	.	O
+
+# sent_id=opener_en/kaf/hotel/english00225_ffb11fd9fc93b3b74cde6a9dcb91be15-10
+1	Dirty	B-Negative
+2	dishes	O
+3	,	O
+4	no	B-Negative
+5	fruit	O
+6	,	O
+7	empty	B-Negative
+8	firdge	O
+9	,	O
+10	loud	B-Negative
+11	TV	O
+
+# sent_id=opener_en/kaf/hotel/english00225_ffb11fd9fc93b3b74cde6a9dcb91be15-11
+1	Would	B-Negative
+2	expect	I-Negative
+3	much	I-Negative
+4	more	I-Negative
+5	for	O
+6	the	O
+7	price	O
+8	paid	O
+9	(	O
+10	160	O
+11	USD	O
+12	/	O
+13	night	O
+14	)	O
+
+# sent_id=opener_en/kaf/hotel/english00015_18a9f5b73a668f8d4b7c7e3fe6bf039a-1
+1	Good	B-Positive
+2	times	O
+3	,	O
+4	great	B-Positive
+5	people	O
+
+# sent_id=opener_en/kaf/hotel/english00015_18a9f5b73a668f8d4b7c7e3fe6bf039a-2
+1	We	O
+2	had	O
+3	a	O
+4	great	B-Positive
+5	time.The	O
+6	staff	O
+7	were	O
+8	great	B-Positive
+9	the	O
+10	food	O
+11	was	O
+12	great.And	B-Positive
+13	there	O
+14	is	O
+15	lots	B-Positive
+16	of	I-Positive
+17	private	O
+18	areas	O
+19	by	O
+20	the	O
+21	sea.What	O
+22	can	O
+23	i	O
+24	say.Love	B-Positive
+25	the	O
+26	Grand	O
+27	Palladium	O
+28	jamaica.And	O
+29	we	O
+30	hope	O
+31	to	O
+32	see	O
+33	all	O
+34	the	O
+35	staff	O
+36	next	O
+37	year	O
+38	.	O
+
+# sent_id=opener_en/kaf/hotel/english00015_18a9f5b73a668f8d4b7c7e3fe6bf039a-3
+1	Willis	O
+2	and	O
+3	Toni	O
+
+# sent_id=opener_en/kaf/hotel/english00102_94366a88fc752c9ebd6fd05ab6af034f-1
+1	Topaz	O
+2	Club	O
+3	·	O
+4	worth	B-Positive
+5	a	I-Positive
+6	visit	I-Positive
+
+# sent_id=opener_en/kaf/hotel/english00102_94366a88fc752c9ebd6fd05ab6af034f-2
+1	I	O
+2	can	O
+3	recommend	B-Positive
+4	this	O
+5	hotel	O
+6	,	O
+7	romms	O
+8	are	O
+9	big	B-Positive
+10	and	O
+11	clean	B-Positive
+12	,	O
+13	friendly	B-Positive
+14	animation	O
+15	team	O
+16	,	O
+17	every	B-Positive
+18	evening	I-Positive
+19	show	O
+20	time	O
+21	so	O
+22	we	O
+23	werent	B-Positive
+24	bored	I-Positive
+25	,	O
+26	every	B-Positive
+27	night	I-Positive
+28	disco	O
+29	,	O
+30	food	O
+31	was	O
+32	really	B-Positive
+33	good	I-Positive
+34	and	O
+35	fresh	B-Positive
+36	and	O
+37	what	O
+38	was	O
+39	nice	B-Positive
+40	also	O
+41	·	O
+42	u	O
+43	can	O
+44	reserve	O
+45	a	O
+46	dinner	O
+47	in	O
+48	themed	O
+49	restaurant	O
+50	,	O
+51	i	O
+52	recommend	B-Positive
+53	especially	O
+54	italian	O
+
+# sent_id=opener_en/kaf/hotel/english00068_648a6a0314adb5e7e8f21eea47c75071-1
+1	Coming	O
+2	to	O
+3	rest	O
+
+# sent_id=opener_en/kaf/hotel/english00068_648a6a0314adb5e7e8f21eea47c75071-2
+1	Friendly	B-Positive
+2	,	O
+3	clean	B-Positive
+4	hotel	O
+5	,	O
+6	with	O
+7	good	B-Positive
+8	sound	O
+9	isolation	O
+10	,	O
+11	so	O
+12	in	O
+13	general	O
+14	no	B-Positive
+15	noise	O
+16	from	O
+17	outside	O
+18	the	O
+19	room	O
+20	!	O
+21	!	O
+22	!	O
+23	!	O
+
+# sent_id=opener_en/kaf/hotel/english00068_648a6a0314adb5e7e8f21eea47c75071-3
+1	The	O
+2	wellness	O
+3	is	O
+4	an	B-Positive
+5	absolute	I-Positive
+6	pluspoint	I-Positive
+7	,	O
+8	tram	O
+9	to	O
+10	the	O
+11	centre	O
+12	of	O
+13	cologne	O
+14	stops	B-Positive
+15	right	I-Positive
+16	in	I-Positive
+17	front	I-Positive
+18	.	O
+
+# sent_id=opener_en/kaf/hotel/english00068_648a6a0314adb5e7e8f21eea47c75071-4
+1	There	B-Positive
+2	's	I-Positive
+3	underground	O
+4	parking	O
+5	but	O
+6	expensive	B-Negative
+7	.	O
+
+# sent_id=opener_en/kaf/hotel/english00068_648a6a0314adb5e7e8f21eea47c75071-5
+1	I	O
+2	've	O
+3	been	O
+4	coming	O
+5	to	O
+6	this	O
+7	hotel	O
+8	since	O
+9	2000	O
+10	and	O
+11	still	O
+12	returning	O
+13	.	O
+
+# sent_id=opener_en/kaf/hotel/english00068_648a6a0314adb5e7e8f21eea47c75071-6
+1	The	O
+2	new	O
+3	management	O
+4	is	O
+5	a	B-Positive
+6	definete	I-Positive
+7	improvement	I-Positive
+
+# sent_id=opener_en/kaf/hotel/english00124_8c6f0945c9912a7d70762aac3ae98526-1
+1	Rimini	O
+2	contemporary	B-Positive
+3	chic	B-Positive
+
+# sent_id=opener_en/kaf/hotel/english00124_8c6f0945c9912a7d70762aac3ae98526-2
+1	Overall	O
+2	this	O
+3	is	O
+4	a	O
+5	very	B-Positive
+6	nice	I-Positive
+7	hotel	O
+8	for	O
+9	couples	O
+10	,	O
+11	families	O
+12	and	O
+13	likely	O
+14	even	O
+15	for	O
+16	singles	O
+17	,	O
+18	considering	O
+19	it	O
+20	's	O
+21	proximity	B-Positive
+22	to	I-Positive
+23	the	I-Positive
+24	beach	I-Positive
+25	as	I-Positive
+26	well	I-Positive
+27	as	I-Positive
+28	Rimini	I-Positive
+29	's	I-Positive
+30	main	I-Positive
+31	thoroughfare	I-Positive
+32	.	O
+
+# sent_id=opener_en/kaf/hotel/english00124_8c6f0945c9912a7d70762aac3ae98526-3
+1	The	O
+2	staff	O
+3	is	O
+4	knowledgeable	B-Positive
+5	concerning	I-Positive
+6	special	I-Positive
+7	recommendations	I-Positive
+8	for	O
+9	restaurants	O
+10	and	O
+11	otherwise	O
+12	also	O
+13	very	B-Positive
+14	forthcoming	I-Positive
+15	.	O
+
+# sent_id=opener_en/kaf/hotel/english00124_8c6f0945c9912a7d70762aac3ae98526-4
+1	The	O
+2	rooms	O
+3	with	O
+4	a	O
+5	small	O
+6	kitchen	O
+7	are	O
+8	highly	B-Positive
+9	recommended	I-Positive
+10	for	O
+11	those	O
+12	who	O
+13	want	O
+14	to	O
+15	save	O
+16	money	O
+17	and	O
+18	enjoy	O
+19	the	O
+20	delicacies	O
+21	that	O
+22	can	O
+23	be	O
+24	found	O
+25	at	O
+26	the	O
+27	weekly	O
+28	market	O
+29	in	O
+30	the	O
+31	old	O
+32	part	O
+33	of	O
+34	Rimini	O
+35	!	O
+
+# sent_id=opener_en/kaf/hotel/english00141_d588b065119a34291a9a412b413bed58-1
+1	Very	B-Positive
+2	good	I-Positive
+3	hotel	O
+
+# sent_id=opener_en/kaf/hotel/english00141_d588b065119a34291a9a412b413bed58-2
+1	hello	O
+2	.	O
+
+# sent_id=opener_en/kaf/hotel/english00141_d588b065119a34291a9a412b413bed58-3
+1	I	O
+2	have	O
+3	to	O
+4	say	O
+5	that	O
+6	in	O
+7	my	O
+8	8	O
+9	days	O
+10	that	O
+11	I	O
+12	've	O
+13	been.	O
+14	really	O
+15	good	O
+16	but	O
+17	could	O
+18	have	O
+19	had	O
+20	ot	O
+21	otherwise	O
+22	ok	O
+23	with	O
+24	40	O
+25	degrees	O
+26	and	O
+27	a	O
+28	nice	O
+29	breeze	O
+30	,	O
+31	we	O
+32	could	O
+33	well	O
+34	account	O
+35	for	O
+36	the	O
+37	pool	O
+38	.	O
+
+# sent_id=opener_en/kaf/hotel/english00141_d588b065119a34291a9a412b413bed58-4
+1	The	O
+2	rooms	O
+3	looked	B-Positive
+4	very	I-Positive
+5	good	I-Positive
+6	every	I-Positive
+7	day	I-Positive
+8	,	O
+9	your	O
+10	room	O
+11	completely	B-Positive
+12	done.	I-Positive
+13	and	O
+14	then	O
+15	there	O
+16	's	O
+17	the	O
+18	animation	O
+19	is	O
+20	very	B-Positive
+21	well	I-Positive
+22	organized	I-Positive
+23	for	O
+24	kids	O
+25	and	O
+26	for	O
+27	older	O
+28	people	O
+29	's	O
+30	show	O
+31	every	B-Positive
+32	night.	I-Positive
+33	and	O
+34	this	O
+35	girl	O
+36	elina	O
+37	I	O
+38	must	O
+39	thank	O
+40	you	O
+41	for	O
+42	this	O
+43	nice	B-Positive
+44	holiday	O
+45	In	O
+46	this	O
+47	great	B-Positive
+48	hotel	O
+
+# sent_id=opener_en/kaf/hotel/english00141_d588b065119a34291a9a412b413bed58-5
+1	marvin	O
+2	from	O
+3	holland	O
+
+# sent_id=opener_en/kaf/hotel/english00021_175f405c5bc3db2c7e1207bc21346d43-1
+1	Last	O
+2	minute	O
+3	getaway	O
+4	in	O
+5	Brugge	O
+
+# sent_id=opener_en/kaf/hotel/english00021_175f405c5bc3db2c7e1207bc21346d43-2
+1	We	O
+2	stayed	O
+3	there	O
+4	with	O
+5	our	O
+6	big	O
+7	dog	O
+8	,	O
+9	we	O
+10	pay	O
+11	20	O
+12	Euro	O
+13	a	O
+14	night	O
+15	for	O
+16	him	O
+17	,	O
+18	which	O
+19	is	O
+20	I	O
+21	guess	O
+22	normal	O
+23	here	O
+24	in	O
+25	Europe	O
+26	.	O
+
+# sent_id=opener_en/kaf/hotel/english00021_175f405c5bc3db2c7e1207bc21346d43-3
+1	He	O
+2	was	O
+3	not	B-Negative
+4	allowed	I-Negative
+5	in	O
+6	the	O
+7	restaurant	O
+8	though	O
+9	,	O
+10	which	O
+11	is	O
+12	also	O
+13	acceptable	B-Positive
+14	.	O
+
+# sent_id=opener_en/kaf/hotel/english00021_175f405c5bc3db2c7e1207bc21346d43-4
+1	The	O
+2	staff	O
+3	were	O
+4	very	B-Positive
+5	friendly	I-Positive
+6	.	O
+
+# sent_id=opener_en/kaf/hotel/english00021_175f405c5bc3db2c7e1207bc21346d43-5
+1	We	O
+2	didn	O
+3	't	O
+4	stay	O
+5	much	O
+6	in	O
+7	the	O
+8	hotel	O
+9	since	O
+10	we	O
+11	spent	O
+12	most	O
+13	of	O
+14	the	O
+15	days	O
+16	outside	O
+17	.	O
+
+# sent_id=opener_en/kaf/hotel/english00021_175f405c5bc3db2c7e1207bc21346d43-6
+1	There	B-Negative
+2	aren	I-Negative
+3	't	I-Negative
+4	many	O
+5	English	O
+6	channel	O
+7	on	O
+8	TV	O
+9	unfortunately	O
+10	.	O
+
+# sent_id=opener_en/kaf/hotel/english00021_175f405c5bc3db2c7e1207bc21346d43-7
+1	The	O
+2	location	O
+3	is	O
+4	ok	B-Positive
+5	if	O
+6	you	O
+7	are	O
+8	used	O
+9	to	O
+10	walk	O
+11	.	O
+
+# sent_id=opener_en/kaf/hotel/english00021_175f405c5bc3db2c7e1207bc21346d43-8
+1	It	O
+2	's	O
+3	about	O
+4	15	B-Positive
+5	·	I-Positive
+6	20	I-Positive
+7	minutes	I-Positive
+8	easy	I-Positive
+9	walk	I-Positive
+10	to	I-Positive
+11	the	I-Positive
+12	city	I-Positive
+13	center	I-Positive
+14	.	O
+
+# sent_id=opener_en/kaf/hotel/english00021_175f405c5bc3db2c7e1207bc21346d43-9
+1	When	O
+2	we	O
+3	stayed	O
+4	there	O
+5	,	O
+6	there	B-Negative
+7	was	I-Negative
+8	a	O
+9	weird	B-Negative
+10	smell	O
+11	around	O
+12	the	O
+13	sitting	O
+14	area	O
+15	.	O
+
+# sent_id=opener_en/kaf/hotel/english00036_29c5cdcccf3cb2bb0f38d4d1153d3d44-1
+1	The	B-Negative
+2	worst	I-Negative
+3	vacation	I-Negative
+4	ever	I-Negative
+5	·	O
+6	anything	B-Negative
+7	but	I-Negative
+8	grand	I-Negative
+9	!	I-Negative
+
+# sent_id=opener_en/kaf/hotel/english00036_29c5cdcccf3cb2bb0f38d4d1153d3d44-2
+1	Sheets	O
+2	were	O
+3	stained	B-Negative
+4	too	O
+5	4	O
+6	times	O
+7	for	O
+8	mgmt	O
+9	to	O
+10	bring	O
+11	new	O
+12	ones	O
+13	all	O
+14	were	O
+15	stained	B-Negative
+16	.	O
+
+# sent_id=opener_en/kaf/hotel/english00036_29c5cdcccf3cb2bb0f38d4d1153d3d44-3
+1	Food	O
+2	was	O
+3	inedible	B-Negative
+4	bacteria	B-Negative
+5	haven	I-Negative
+6	!!!!	I-Negative
+
+# sent_id=opener_en/kaf/hotel/english00036_29c5cdcccf3cb2bb0f38d4d1153d3d44-4
+1	Cannot	B-Negative
+2	get	I-Negative
+3	any	O
+4	assistance	O
+5	with	O
+6	issues	O
+
+# sent_id=opener_en/kaf/hotel/english00036_29c5cdcccf3cb2bb0f38d4d1153d3d44-5
+1	Pool	O
+2	closes	B-Negative
+3	at	I-Negative
+4	7	I-Negative
+
+# sent_id=opener_en/kaf/hotel/english00036_29c5cdcccf3cb2bb0f38d4d1153d3d44-6
+1	You	O
+2	are	O
+3	stuck	B-Negative
+4	once	I-Negative
+5	you	I-Negative
+6	book	I-Negative
+7	they	O
+8	will	O
+9	not	B-Negative
+10	allow	I-Negative
+11	you	O
+12	to	O
+13	change	O
+14	hotels	O
+15	.	O
+
+# sent_id=opener_en/kaf/hotel/english00036_29c5cdcccf3cb2bb0f38d4d1153d3d44-7
+1	Now	O
+2	back	O
+3	,	O
+4	no	B-Negative
+5	one	I-Negative
+6	will	I-Negative
+7	reply	I-Negative
+8	to	O
+9	emails	O
+10	and	O
+11	they	O
+12	do	B-Negative
+13	not	I-Negative
+14	answer	I-Negative
+15	phones	O
+
+# sent_id=opener_en/kaf/hotel/english00036_29c5cdcccf3cb2bb0f38d4d1153d3d44-8
+1	Only	O
+2	by	O
+3	lingual	O
+4	if	O
+5	you	O
+6	ask	O
+7	for	O
+8	basic	O
+9	Where	O
+10	is	O
+11	the	O
+12	bathroom	O
+13	forget	O
+14	about	O
+15	a	O
+16	conversation	O
+17	.	O
+
+# sent_id=opener_en/kaf/hotel/english00036_29c5cdcccf3cb2bb0f38d4d1153d3d44-9
+1	Hamburger	O
+2	meat	O
+3	was	O
+4	grey	B-Negative
+5	·	O
+6	set	O
+7	out	O
+8	next	O
+9	to	O
+10	hot	O
+11	grill	O
+
+# sent_id=opener_en/kaf/hotel/english00036_29c5cdcccf3cb2bb0f38d4d1153d3d44-10
+1	Elderly	O
+2	beware	O
+3	walking	O
+4	long	B-Negative
+5	distances	I-Negative
+6	long	B-Negative
+7	waits	I-Negative
+8	for	I-Negative
+9	shuttle	I-Negative
+10	if	O
+11	you	O
+12	can	O
+13	find	O
+14	one	O
+15	.....	O
+
+# sent_id=opener_en/kaf/hotel/english00131_c79cbcb89e31c9e5dea4c13b0f9284e2-1
+1	Dolphin	O
+
+# sent_id=opener_en/kaf/hotel/english00131_c79cbcb89e31c9e5dea4c13b0f9284e2-2
+1	Enjoyed	B-Positive
+2	this	I-Positive
+3	holiday	I-Positive
+4	so	I-Positive
+5	much	I-Positive
+6	we	O
+7	booked	B-Positive
+8	again	I-Positive
+9	for	I-Positive
+10	the	I-Positive
+11	following	I-Positive
+12	year	I-Positive
+13	and	O
+14	will	B-Positive
+15	be	I-Positive
+16	booking	I-Positive
+17	again	I-Positive
+18	for	I-Positive
+19	2014	I-Positive
+20	,	O
+21	as	O
+22	returning	O
+23	guests	O
+24	we	O
+25	were	B-Positive
+26	given	I-Positive
+27	lots	O
+28	of	O
+29	extras.the	O
+30	food	O
+31	was	O
+32	supburb	B-Positive
+33	and	O
+34	catered	B-Positive
+35	for	I-Positive
+36	all	I-Positive
+37	different	I-Positive
+38	cultures	I-Positive
+39	and	I-Positive
+40	tastes.we	I-Positive
+41	had	O
+42	a	O
+43	cottage	O
+44	which	O
+45	was	O
+46	on	B-Positive
+47	the	I-Positive
+48	beach	I-Positive
+49	front	I-Positive
+50	which	O
+51	was	O
+52	very	B-Positive
+53	comfortable	I-Positive
+54	clean	B-Positive
+55	and	O
+56	spacious.the	B-Positive
+57	room	O
+58	boys	O
+59	took	O
+60	care	O
+61	of	O
+62	our	O
+63	every	O
+64	need.we	O
+65	still	O
+66	keep	O
+67	in	O
+68	touchwith	O
+69	the	O
+70	bar	O
+71	staff	O
+72	through	O
+73	sms.every	O
+74	one	O
+75	greets	O
+76	you	O
+77	with	O
+78	a	O
+79	smile	O
+80	and	O
+81	makes	O
+82	you	O
+83	feel	O
+84	special	O
+85	weather	O
+86	in	O
+87	feb	O
+88	was	O
+89	35	B-Positive
+90	/	I-Positive
+91	40	I-Positive
+92	degrees	I-Positive
+93	so	O
+94	all	O
+95	inclusive	O
+96	beer	O
+97	was	O
+98	welcome.would	B-Positive
+99	reccomend	B-Positive
+100	this	I-Positive
+101	hotel	I-Positive
+102	very	I-Positive
+103	higly	I-Positive
+104	.	O
+105	:	O
+106	)	O
+
+# sent_id=opener_en/kaf/hotel/english00127_be6853eb63a85dfd91663b64efaaf60b-1
+1	Relax	B-Positive
+
+# sent_id=opener_en/kaf/hotel/english00127_be6853eb63a85dfd91663b64efaaf60b-2
+1	There	B-Positive
+2	is	I-Positive
+3	no	O
+4	much	O
+5	to	O
+6	say	O
+7	,	O
+8	it	O
+9	is	O
+10	my	O
+11	7th	O
+12	year	O
+13	I	O
+14	am	O
+15	spending	B-Positive
+16	holidays	I-Positive
+17	in	I-Positive
+18	this	I-Positive
+19	hotel	I-Positive
+20	.	O
+
+# sent_id=opener_en/kaf/hotel/english00127_be6853eb63a85dfd91663b64efaaf60b-3
+1	I	O
+2	have	O
+3	spent	O
+4	a	O
+5	beautiful	O
+6	time	O
+7	in	O
+8	other	O
+9	expensive	O
+10	hotels	O
+11	throughout	O
+12	Europe	O
+13	,	O
+14	but	O
+15	definitely	O
+16	I	O
+17	found	O
+18	it	O
+19	is	O
+20	not	O
+21	the	O
+22	number	O
+23	of	O
+24	stars	O
+25	which	O
+26	define	O
+27	feelings	O
+28	.	O
+
+# sent_id=opener_en/kaf/hotel/english00127_be6853eb63a85dfd91663b64efaaf60b-4
+1	I	O
+2	am	O
+3	enjoying	O
+4	in	O
+5	my	O
+6	way	O
+7	.	O
+
+# sent_id=opener_en/kaf/hotel/english00011_131b37a0eb5542ccbdbd5e0139875027-1
+1	Sri	O
+2	Lanka	O
+3	·	O
+4	we	O
+5	will	B-Positive
+6	come	I-Positive
+7	again	I-Positive
+8	!	I-Positive
+
+# sent_id=opener_en/kaf/hotel/english00011_131b37a0eb5542ccbdbd5e0139875027-2
+1	We	O
+2	had	O
+3	a	O
+4	wonderful	B-Positive
+5	stay	O
+6	in	O
+7	Sri	O
+8	Lanka	O
+9	.	O
+
+# sent_id=opener_en/kaf/hotel/english00011_131b37a0eb5542ccbdbd5e0139875027-3
+1	Everybody	O
+2	was	O
+3	very	O
+4	kind	O
+5	·	O
+6	country	O
+7	is	O
+8	beautiful	O
+9	.	O
+
+# sent_id=opener_en/kaf/hotel/english00011_131b37a0eb5542ccbdbd5e0139875027-4
+1	The	O
+2	staff	O
+3	at	O
+4	the	O
+5	Club	O
+6	Hotel	O
+7	Dolphin	O
+8	was	O
+9	very	B-Positive
+10	helpfull	I-Positive
+11	,	O
+12	they	O
+13	are	O
+14	taking	B-Positive
+15	care	I-Positive
+16	about	I-Positive
+17	the	I-Positive
+18	guests	I-Positive
+19	!	I-Positive
+
+# sent_id=opener_en/kaf/hotel/english00011_131b37a0eb5542ccbdbd5e0139875027-5
+1	We	O
+2	will	B-Positive
+3	come	I-Positive
+4	again	I-Positive
+5	!	I-Positive
+
+# sent_id=opener_en/kaf/hotel/english00011_131b37a0eb5542ccbdbd5e0139875027-6
+1	Thank	O
+2	you	O
+3	everybody	O
+4	!	O
+
+# sent_id=opener_en/kaf/hotel/english00163_f2de7a0618bb010682e1d91c2e554c63-1
+1	Really	B-Positive
+2	nice	I-Positive
+3	hotel	O
+4	,	O
+5	quiet	B-Positive
+6	and	O
+7	confortable	B-Positive
+
+# sent_id=opener_en/kaf/hotel/english00163_f2de7a0618bb010682e1d91c2e554c63-2
+1	Hotel	O
+2	not	B-Positive
+3	too	I-Positive
+4	far	I-Positive
+5	from	O
+6	center	O
+7	(	O
+8	25	O
+9	minutes	O
+10	walk	O
+11	from	O
+12	main	O
+13	station	O
+14	,	O
+15	but	O
+16	tram	O
+17	station	O
+18	just	B-Positive
+19	in	I-Positive
+20	front	I-Positive
+21	of	O
+22	the	O
+23	hotel	O
+24	)	O
+25	,	O
+26	room	O
+27	really	B-Positive
+28	quite	I-Positive
+29	,	O
+30	beds	O
+31	really	B-Positive
+32	confortable	I-Positive
+33	.	O
+
+# sent_id=opener_en/kaf/hotel/english00163_f2de7a0618bb010682e1d91c2e554c63-3
+1	Great	B-Positive
+2	size	I-Positive
+3	room	O
+4	,	O
+5	incredible	B-Positive
+6	pool	O
+7	.	O
+
+# sent_id=opener_en/kaf/hotel/english00163_f2de7a0618bb010682e1d91c2e554c63-4
+1	Breakfast	O
+2	varied	B-Positive
+3	and	O
+4	excellent	B-Positive
+5	.	O
+
+# sent_id=opener_en/kaf/hotel/english00135_cf437684333d2d7a16753ea12607b92d-1
+1	Great	B-Positive
+2	holiday	O
+3	in	O
+4	Dana	O
+5	Beach	O
+6	Resort	O
+
+# sent_id=opener_en/kaf/hotel/english00135_cf437684333d2d7a16753ea12607b92d-2
+1	it	O
+2	was	O
+3	my	B-Positive
+4	the	I-Positive
+5	best	I-Positive
+6	holiday.really	O
+7	everybody	O
+8	there	O
+9	are	O
+10	friendly	B-Positive
+11	and	O
+12	animation	O
+13	club	O
+14	was	O
+15	great	B-Positive
+16	I	O
+17	thing	O
+18	that	O
+19	you	O
+20	can	B-Positive
+21	find	I-Positive
+22	there	O
+23	everything	O
+24	from	O
+25	fun	O
+26	to	O
+27	have	O
+28	a	O
+29	rest	O
+30	.	O
+
+# sent_id=opener_en/kaf/hotel/english00135_cf437684333d2d7a16753ea12607b92d-3
+1	I	O
+2	was	O
+3	only	O
+4	in	O
+5	castelo	O
+6	restaurat	O
+7	but	O
+8	there	O
+9	you	O
+10	can	O
+11	find	O
+12	all	B-Positive
+13	kind	I-Positive
+14	of	I-Positive
+15	food	O
+16	.	O
+17	super	B-Positive
+18	holiday	O
+
+# sent_id=opener_en/kaf/hotel/english00107_76be57e13ea17e1c2cc08cb3f5ab2240-1
+1	Who	O
+2	needs	O
+3	a	O
+4	room	O
+5	(	O
+6	junior	O
+7	suite	O
+8	)	O
+9	this	O
+10	large	O
+
+# sent_id=opener_en/kaf/hotel/english00107_76be57e13ea17e1c2cc08cb3f5ab2240-2
+1	The	O
+2	hotel	O
+3	looks	B-Positive
+4	,	I-Positive
+5	and	I-Positive
+6	is	I-Positive
+7	most	I-Positive
+8	likely	I-Positive
+9	,	I-Positive
+10	clean	I-Positive
+11	inside	I-Positive
+12	,	O
+13	which	O
+14	cannot	B-Negative
+15	be	I-Negative
+16	said	I-Negative
+17	from	I-Negative
+18	the	I-Negative
+19	outside	I-Negative
+20	.	O
+
+# sent_id=opener_en/kaf/hotel/english00107_76be57e13ea17e1c2cc08cb3f5ab2240-3
+1	Probably	O
+2	as	O
+3	soon	O
+4	as	O
+5	you	O
+6	are	O
+7	not	O
+8	on	O
+9	the	O
+10	premises	O
+11	anymore	O
+12	,	O
+13	it	O
+14	is	O
+15	not	B-Negative
+16	that	I-Negative
+17	clean	I-Negative
+18	.	O
+
+# sent_id=opener_en/kaf/hotel/english00107_76be57e13ea17e1c2cc08cb3f5ab2240-4
+1	During	O
+2	my	O
+3	walk	O
+4	this	O
+5	morning	O
+6	;	O
+7	from	O
+8	the	O
+9	hotel	O
+10	to	O
+11	the	O
+12	office	O
+13	;	O
+14	I	O
+15	got	O
+16	out	O
+17	of	O
+18	the	O
+19	hotel	O
+20	and	O
+21	walked	O
+22	to	O
+23	the	O
+24	escalator	O
+25	which	O
+26	is	O
+27	there	O
+28	and	O
+29	it	O
+30	smelled	B-Negative
+31	terrible	I-Negative
+32	!	I-Negative
+
+# sent_id=opener_en/kaf/hotel/english00107_76be57e13ea17e1c2cc08cb3f5ab2240-5
+1	The	O
+2	hotel	O
+3	features	O
+4	free	B-Positive
+5	Wireless	O
+6	Internet	O
+7	which	O
+8	is	O
+9	also	O
+10	pretty	B-Positive
+11	fast	I-Positive
+12	,	O
+13	which	O
+14	allows	O
+15	you	O
+16	to	O
+17	work	O
+18	and	O
+19	surf	O
+20	without	O
+21	any	O
+22	problems	O
+23	.	O
+
+# sent_id=opener_en/kaf/hotel/english00107_76be57e13ea17e1c2cc08cb3f5ab2240-6
+1	Using	O
+2	Skype	O
+3	may	B-Negative
+4	cause	I-Negative
+5	connection	I-Negative
+6	problems	I-Negative
+7	.	O
+
+# sent_id=opener_en/kaf/hotel/english00107_76be57e13ea17e1c2cc08cb3f5ab2240-7
+1	There	B-Positive
+2	is	I-Positive
+3	a	O
+4	bar	O
+5	in	O
+6	the	O
+7	hotel	O
+8	as	O
+9	well	O
+10	as	O
+11	a	O
+12	restaurant	O
+13	,	O
+14	and	O
+15	also	O
+16	in	O
+17	the	O
+18	immediate	O
+19	surroundings	O
+20	there	O
+21	are	O
+22	places	O
+23	to	O
+24	stay	O
+25	,	O
+26	if	O
+27	you	O
+28	'd	O
+29	like	O
+30	to	O
+31	.	O
+
+# sent_id=opener_en/kaf/hotel/english00131_922600cc0b95f1bff86e963509495860-1
+1	Old	B-Negative
+2	and	O
+3	very	B-Negative
+4	tired	I-Negative
+5	hotel	O
+
+# sent_id=opener_en/kaf/hotel/english00131_922600cc0b95f1bff86e963509495860-2
+1	There	O
+2	are	O
+3	two	O
+4	reasons	O
+5	to	O
+6	choose	O
+7	this	O
+8	hotel	O
+9	:	O
+10	relatively	B-Positive
+11	low	I-Positive
+12	price	I-Positive
+13	comparing	I-Positive
+14	to	I-Positive
+15	other	I-Positive
+16	centrally	I-Positive
+17	located	I-Positive
+18	hotels	I-Positive
+19	and	O
+20	location	O
+21	in	O
+22	walking	B-Positive
+23	distance	I-Positive
+24	from	I-Positive
+25	the	I-Positive
+26	main	I-Positive
+27	station	I-Positive
+28	.	O
+
+# sent_id=opener_en/kaf/hotel/english00131_922600cc0b95f1bff86e963509495860-3
+1	This	O
+2	hotel	O
+3	is	O
+4	very	B-Negative
+5	old	I-Negative
+6	and	O
+7	needs	B-Negative
+8	renovation	I-Negative
+9	long	O
+10	ago	O
+11	.	O
+
+# sent_id=opener_en/kaf/hotel/english00131_922600cc0b95f1bff86e963509495860-4
+1	Tiny	B-Negative
+2	dark	B-Negative
+3	rooms	O
+4	with	B-Negative
+5	very	I-Negative
+6	basic	I-Negative
+7	comfort	I-Negative
+8	,	O
+9	practically	O
+10	,	O
+11	only	O
+12	beds	O
+13	.	O
+
+# sent_id=opener_en/kaf/hotel/english00131_922600cc0b95f1bff86e963509495860-5
+1	Cheap	B-Negative
+2	bed	O
+3	linen	O
+4	and	O
+5	grey	B-Negative
+6	towels	O
+7	.	O
+
+# sent_id=opener_en/kaf/hotel/english00131_922600cc0b95f1bff86e963509495860-6
+1	Thick	B-Negative
+2	windows	O
+3	and	O
+4	bad	B-Negative
+5	heating	O
+6	system	O
+7	.	O
+
+# sent_id=opener_en/kaf/hotel/english00131_922600cc0b95f1bff86e963509495860-7
+1	Poor	B-Negative
+2	breakfast	O
+3	.	O
+
+# sent_id=opener_en/kaf/hotel/english00131_922600cc0b95f1bff86e963509495860-8
+1	Looks	B-Negative
+2	more	I-Negative
+3	like	I-Negative
+4	a	I-Negative
+5	hostel	I-Negative
+6	.	O
+
+# sent_id=opener_en/kaf/hotel/english00131_922600cc0b95f1bff86e963509495860-9
+1	Very	O
+2	hard	O
+3	to	O
+4	get	O
+5	relaxed	O
+6	after	O
+7	long	O
+8	exploring	O
+9	of	O
+10	the	O
+11	city	O
+12	.	O
+
+# sent_id=opener_en/kaf/hotel/english00073_6d0660face021ed117d3193124ae7849-1
+1	Great	B-Positive
+2	resort	O
+
+# sent_id=opener_en/kaf/hotel/english00073_6d0660face021ed117d3193124ae7849-2
+1	the	O
+2	hotel	O
+3	is	O
+4	very	B-Positive
+5	clean	I-Positive
+6	and	O
+7	all	O
+8	the	O
+9	people	O
+10	who	O
+11	are	O
+12	working	O
+13	their	O
+14	are	O
+15	very	B-Positive
+16	friendly	I-Positive
+17	and	O
+18	willing	B-Positive
+19	to	I-Positive
+20	help	I-Positive
+21	.	O
+
+# sent_id=opener_en/kaf/hotel/english00073_6d0660face021ed117d3193124ae7849-3
+1	The	O
+2	food	O
+3	in	O
+4	general	O
+5	is	O
+6	very	B-Positive
+7	very	I-Positive
+8	good	I-Positive
+9	also	O
+10	the	O
+11	rooms	O
+
+# sent_id=opener_en/kaf/hotel/english00114_81738fd5eabd2b44715d8f62cd43823c-1
+1	Great	B-Positive
+2	location	O
+3	,	O
+4	attentive	B-Positive
+5	staff	O
+
+# sent_id=opener_en/kaf/hotel/english00114_81738fd5eabd2b44715d8f62cd43823c-2
+1	This	O
+2	hotel	O
+3	has	O
+4	a	O
+5	great	B-Positive
+6	location	O
+7	,	O
+8	in	B-Positive
+9	the	I-Positive
+10	heart	I-Positive
+11	of	I-Positive
+12	Gran	I-Positive
+13	Via	I-Positive
+14	,	O
+15	and	O
+16	if	O
+17	you	O
+18	need	O
+19	to	O
+20	go	O
+21	somewhere	O
+22	,	O
+23	it	O
+24	is	O
+25	in	B-Positive
+26	front	I-Positive
+27	of	I-Positive
+28	a	I-Positive
+29	subway	I-Positive
+30	station	I-Positive
+31	.	O
+
+# sent_id=opener_en/kaf/hotel/english00114_81738fd5eabd2b44715d8f62cd43823c-3
+1	The	O
+2	room	O
+3	was	O
+4	good	B-Positive
+5	,	O
+6	the	O
+7	service	O
+8	was	O
+9	very	B-Positive
+10	attentive	I-Positive
+11	·	O
+12	I	O
+13	said	O
+14	I	O
+15	needed	O
+16	to	O
+17	leave	O
+18	early	O
+19	in	O
+20	the	O
+21	morning	O
+22	to	O
+23	catch	O
+24	a	O
+25	flight	O
+26	(	O
+27	which	O
+28	would	O
+29	make	O
+30	me	O
+31	lose	O
+32	breakfast	O
+33	)	O
+34	,	O
+35	and	O
+36	the	O
+37	front	O
+38	desk	O
+39	offered	O
+40	me	O
+41	a	O
+42	takeaway	O
+43	basket	O
+44	with	O
+45	some	O
+46	fruits	O
+47	,	O
+48	cookies	O
+49	and	O
+50	juice	O
+51	so	O
+52	I	O
+53	could	O
+54	eat	O
+55	it	O
+56	on	O
+57	the	O
+58	go	O
+59	,	O
+60	all	O
+61	free	B-Positive
+62	of	I-Positive
+63	charge	I-Positive
+64	.	O
+
+# sent_id=opener_en/kaf/hotel/english00114_81738fd5eabd2b44715d8f62cd43823c-4
+1	The	O
+2	only	O
+3	drawback	O
+4	from	O
+5	this	O
+6	hotel	O
+7	is	O
+8	that	O
+9	it	O
+10	is	O
+11	in	B-Negative
+12	an	I-Negative
+13	old	I-Negative
+14	building	I-Negative
+15	.	O
+
+# sent_id=opener_en/kaf/hotel/english00114_81738fd5eabd2b44715d8f62cd43823c-5
+1	The	O
+2	design	O
+3	is	O
+4	old	B-Negative
+5	,	O
+6	and	O
+7	some	O
+8	might	O
+9	find	O
+10	it	O
+11	needs	B-Negative
+12	a	I-Negative
+13	restoration	I-Negative
+14	,	O
+15	but	O
+16	everything	O
+17	works	B-Positive
+18	perfectly	I-Positive
+19	.	O
+
+# sent_id=opener_en/kaf/hotel/english00019_1de6c7cab0a5e466ea5f1ffa02bea834-1
+1	Best	B-Positive
+2	in	O
+3	town	O
+
+# sent_id=opener_en/kaf/hotel/english00019_1de6c7cab0a5e466ea5f1ffa02bea834-2
+1	A	O
+2	very	B-Positive
+3	friendly	I-Positive
+4	Hotel	O
+5	in	O
+6	a	O
+7	nice	B-Positive
+8	park	O
+9	area	O
+10	with	O
+11	excellent	B-Positive
+12	food	O
+13	and	O
+14	wine	O
+15	.	O
+
+# sent_id=opener_en/kaf/hotel/english00019_1de6c7cab0a5e466ea5f1ffa02bea834-3
+1	The	O
+2	rooms	O
+3	are	O
+4	not	B-Negative
+5	big	I-Negative
+6	,	O
+7	but	O
+8	nicely	B-Positive
+9	made	I-Positive
+10	.	O
+
+# sent_id=opener_en/kaf/hotel/english00019_1de6c7cab0a5e466ea5f1ffa02bea834-4
+1	The	O
+2	service	O
+3	is	O
+4	excellent	B-Positive
+5	and	O
+6	helpful	B-Positive
+7	in	O
+8	any	O
+9	case	O
+10	.	O
+
+# sent_id=opener_en/kaf/hotel/english00019_1de6c7cab0a5e466ea5f1ffa02bea834-5
+1	It	O
+2	is	O
+3	located	O
+4	next	B-Positive
+5	to	I-Positive
+6	the	O
+7	park	O
+8	and	O
+9	a	O
+10	rose	O
+11	garden	O
+12	in	O
+13	a	O
+14	calm	B-Positive
+15	area	O
+16	10	B-Positive
+17	min	I-Positive
+18	from	O
+19	the	O
+20	center	O
+21	of	O
+22	Trier	O
+
+# sent_id=opener_en/kaf/hotel/english00185_db05e0757f02b90cd0bfea7d0bc9349b-1
+1	Not	B-Negative
+2	worth	I-Negative
+3	going	I-Negative
+4	to	I-Negative
+5	!	I-Negative
+
+# sent_id=opener_en/kaf/hotel/english00185_db05e0757f02b90cd0bfea7d0bc9349b-2
+1	One	B-Negative
+2	of	I-Negative
+3	the	I-Negative
+4	worst	I-Negative
+5	hotels	I-Negative
+6	I	I-Negative
+7	've	I-Negative
+8	ever	I-Negative
+9	seen	I-Negative
+10	.	O
+
+# sent_id=opener_en/kaf/hotel/english00185_db05e0757f02b90cd0bfea7d0bc9349b-3
+1	Lobby	O
+2	was	O
+3	full	B-Negative
+4	of	I-Negative
+5	flies	I-Negative
+6	(	O
+7	dead	O
+8	and	O
+9	alive	O
+10	)	O
+11	,	O
+12	it	O
+13	was	O
+14	hot	B-Negative
+15	,	O
+16	humid	B-Negative
+17	and	O
+18	smelly	B-Negative
+19	.	O
+
+# sent_id=opener_en/kaf/hotel/english00185_db05e0757f02b90cd0bfea7d0bc9349b-4
+1	Elevator	O
+2	is	O
+3	so	B-Negative
+4	small	I-Negative
+5	that	O
+6	two	O
+7	average	O
+8	persons	O
+9	and	O
+10	one	O
+11	suit	O
+12	case	O
+13	are	O
+14	having	O
+15	troubles	O
+16	to	O
+17	fit	O
+18	.	O
+
+# sent_id=opener_en/kaf/hotel/english00185_db05e0757f02b90cd0bfea7d0bc9349b-5
+1	Rooms	O
+2	are	O
+3	small	B-Negative
+4	,	O
+5	smelly	B-Negative
+6	and	O
+7	very	B-Negative
+8	outdated	I-Negative
+9	.	O
+
+# sent_id=opener_en/kaf/hotel/english00185_db05e0757f02b90cd0bfea7d0bc9349b-6
+1	Bath	O
+2	shower	O
+3	didn	B-Negative
+4	't	I-Negative
+5	work	I-Negative
+6	,	O
+7	and	O
+8	the	O
+9	fridge	O
+10	was	O
+11	broken	B-Negative
+12	.	O
+
+# sent_id=opener_en/kaf/hotel/english00185_db05e0757f02b90cd0bfea7d0bc9349b-7
+1	Most	O
+2	likely	O
+3	,	O
+4	I	O
+5	won	B-Negative
+6	't	I-Negative
+7	return	I-Negative
+8	to	O
+9	this	O
+10	place	O
+11	.	O
+
+# sent_id=opener_en/kaf/hotel/english00111_a0c1adca8aa3f8cebb3b188d2a3e6fbf-1
+1	Hotel	O
+2	Riverside	O
+
+# sent_id=opener_en/kaf/hotel/english00111_a0c1adca8aa3f8cebb3b188d2a3e6fbf-2
+1	The	O
+2	hotel	O
+3	was	O
+4	underconstruction	B-Negative
+5	therefore	O
+6	there	B-Negative
+7	were	I-Negative
+8	problems	O
+9	with	O
+10	the	O
+11	heating	O
+12	.	O
+
+# sent_id=opener_en/kaf/hotel/english00111_a0c1adca8aa3f8cebb3b188d2a3e6fbf-3
+1	The	O
+2	breakfast	O
+3	and	O
+4	diner	O
+5	aerea	O
+6	was	O
+7	freezing	B-Positive
+8	!	I-Positive
+
+# sent_id=opener_en/kaf/hotel/english00111_a0c1adca8aa3f8cebb3b188d2a3e6fbf-4
+1	No	B-Negative
+2	actions	I-Negative
+3	were	I-Negative
+4	taken	I-Negative
+5	to	O
+6	get	O
+7	us	O
+8	any	O
+9	warmer	O
+10	.	O
+
+# sent_id=opener_en/kaf/hotel/english00111_a0c1adca8aa3f8cebb3b188d2a3e6fbf-5
+1	My	O
+2	old	O
+3	room	O
+4	was	O
+5	very	B-Negative
+6	old	I-Negative
+7	and	O
+8	I	O
+9	hope	O
+10	that	O
+11	the	O
+12	new	O
+13	rooms	O
+14	will	O
+15	be	O
+16	of	O
+17	this	O
+18	time	O
+
+# sent_id=opener_en/kaf/hotel/english00106_95e12d763c34248a2836b2b210c1cbd1-1
+1	Topaz	O
+2	hotel	O
+3	for	O
+4	a	O
+5	wonderful	B-Positive
+6	holiday	O
+7	in	O
+8	Hurghada	O
+
+# sent_id=opener_en/kaf/hotel/english00106_95e12d763c34248a2836b2b210c1cbd1-2
+1	A	O
+2	confortable	B-Positive
+3	hotel	O
+4	,	O
+5	large	B-Positive
+6	rooms	O
+7	and	O
+8	excellent	B-Positive
+9	service	O
+10	.	O
+
+# sent_id=opener_en/kaf/hotel/english00106_95e12d763c34248a2836b2b210c1cbd1-3
+1	Mr.	O
+2	Hussein	O
+3	,	O
+4	the	O
+5	hotelmanager	O
+6	want	O
+7	the	O
+8	guests	O
+9	to	O
+10	enjoy	B-Positive
+11	e	O
+12	wonderful	B-Positive
+13	holiday	O
+14	in	O
+15	the	O
+16	hotel.The	O
+17	staff	O
+18	is	O
+19	very	B-Positive
+20	friendly	I-Positive
+21	,	O
+22	they	O
+23	speak	O
+24	English	O
+25	and	O
+26	some	O
+27	of	O
+28	them	O
+29	speak	O
+30	Dutch	O
+31	as	O
+32	well	O
+33	.	O
+
+# sent_id=opener_en/kaf/hotel/english00106_95e12d763c34248a2836b2b210c1cbd1-4
+1	The	O
+2	animation	O
+3	team	O
+4	makes	O
+5	you	O
+6	feel	B-Positive
+7	happy	I-Positive
+8	during	O
+9	your	O
+10	stay	O
+11	.	O
+
+# sent_id=opener_en/kaf/hotel/english00106_95e12d763c34248a2836b2b210c1cbd1-5
+1	Ervery	B-Positive
+2	morning	I-Positive
+3	Aquagym	O
+4	!	O
+
+# sent_id=opener_en/kaf/hotel/english00106_95e12d763c34248a2836b2b210c1cbd1-6
+1	We	O
+2	enjoyed	B-Positive
+3	te	O
+4	meals	O
+5	.	O
+
+# sent_id=opener_en/kaf/hotel/english00106_95e12d763c34248a2836b2b210c1cbd1-7
+1	A	O
+2	wonderful	B-Positive
+3	hotel	O
+4	for	O
+5	a	O
+6	good	B-Positive
+7	price	O
+8	.	O
+
+# sent_id=opener_en/kaf/hotel/english00106_95e12d763c34248a2836b2b210c1cbd1-8
+1	Tina	O
+
+# sent_id=opener_en/kaf/hotel/english00024_25d18c2dc122d4ea250466f6bea80fd6-1
+1	Very	B-Positive
+2	Good	I-Positive
+3	Hotel	O
+4	fantastic	B-Positive
+5	Food	O
+
+# sent_id=opener_en/kaf/hotel/english00024_25d18c2dc122d4ea250466f6bea80fd6-2
+1	Simply	B-Positive
+2	Good	I-Positive
+3	,	O
+4	the	O
+5	Park	O
+6	behind	O
+7	the	O
+8	Hotel	O
+9	is	O
+10	stunning	B-Positive
+11	an	O
+12	charming	B-Positive
+13	.	O
+
+# sent_id=opener_en/kaf/hotel/english00024_25d18c2dc122d4ea250466f6bea80fd6-3
+1	The	O
+2	People	O
+3	are	O
+4	friendly	B-Positive
+5	and	O
+6	the	O
+7	Food	O
+8	is	O
+9	fantastic	B-Positive
+10	.	O
+
+# sent_id=opener_en/kaf/hotel/english00024_25d18c2dc122d4ea250466f6bea80fd6-4
+1	The	O
+2	only	O
+3	downside	O
+4	was	O
+5	the	O
+6	very	B-Negative
+7	small	I-Negative
+8	bathroom	O
+9	,	O
+10	and	O
+11	that	O
+12	you	B-Negative
+13	have	I-Negative
+14	to	I-Negative
+15	pay	I-Negative
+16	extra	I-Negative
+17	for	O
+18	carparking	O
+19	.	O
+
+# sent_id=opener_en/kaf/hotel/english00024_25d18c2dc122d4ea250466f6bea80fd6-5
+1	At	O
+2	120	B-Negative
+3	€	I-Negative
+4	a	I-Negative
+5	Night	I-Negative
+6	I	O
+7	think	O
+8	that	O
+9	should	O
+10	be	O
+11	included	O
+12	.	O
+
+# sent_id=opener_en/kaf/hotel/english00057_5407ee0ce68f6d8dca6b6ffbd67fa2d8-1
+1	The	B-Positive
+2	best	I-Positive
+3	holiday	I-Positive
+4	ever	I-Positive
+5	,	O
+6	we	O
+7	will	B-Positive
+8	be	I-Positive
+9	back	I-Positive
+10	again	I-Positive
+
+# sent_id=opener_en/kaf/hotel/english00057_5407ee0ce68f6d8dca6b6ffbd67fa2d8-2
+1	Dana	O
+2	is	O
+3	the	B-Positive
+4	best	I-Positive
+5	and	O
+6	we	O
+7	will	B-Positive
+8	be	I-Positive
+9	back	I-Positive
+10	again	I-Positive
+11	and	I-Positive
+12	again	I-Positive
+13	.	O
+
+# sent_id=opener_en/kaf/hotel/english00057_5407ee0ce68f6d8dca6b6ffbd67fa2d8-3
+1	This	O
+2	year	O
+3	we	O
+4	have	O
+5	been	O
+6	staying	O
+7	at	O
+8	Dana	O
+9	2	O
+10	times	O
+11	.	O
+
+# sent_id=opener_en/kaf/hotel/english00057_5407ee0ce68f6d8dca6b6ffbd67fa2d8-4
+1	Last	O
+2	year	O
+3	2	O
+4	times	O
+5	,	O
+6	the	O
+7	year	O
+8	before	O
+9	2	O
+10	times	O
+11	........	O
+
+# sent_id=opener_en/kaf/hotel/english00057_5407ee0ce68f6d8dca6b6ffbd67fa2d8-5
+1	We	O
+2	have	O
+3	had	O
+4	friends	O
+5	who	O
+6	have	O
+7	been	O
+8	at	O
+9	Dana	O
+10	morew	O
+11	than	O
+12	once	O
+
+# sent_id=opener_en/kaf/hotel/english00044_3efe4d8dbdd774d767ba1349e00ceeeb-1
+1	Dana	O
+2	Beach	O
+3	2013	O
+
+# sent_id=opener_en/kaf/hotel/english00044_3efe4d8dbdd774d767ba1349e00ceeeb-2
+1	It	O
+2	was	O
+3	the	O
+4	second	O
+5	time	O
+6	at	O
+7	Dana	O
+8	Beach	O
+9	and	O
+10	we	O
+11	were	O
+12	pleases	O
+13	that	O
+14	the	O
+15	childrens	O
+16	swimmingpool	O
+17	was	B-Positive
+18	also	I-Positive
+19	heated	I-Positive
+20	now	O
+21	.	O
+
+# sent_id=opener_en/kaf/hotel/english00044_3efe4d8dbdd774d767ba1349e00ceeeb-3
+1	Last	O
+2	year	O
+3	it	O
+4	wasn	O
+5	't.	O
+6	and	O
+7	due	O
+8	to	O
+9	the	O
+10	weather	O
+11	it	O
+12	was	O
+13	to	O
+14	cold	O
+15	for	O
+16	the	O
+17	children	O
+18	to	O
+19	use	O
+20	that	O
+21	pool	O
+22	;	O
+
+# sent_id=opener_en/kaf/hotel/english00044_3efe4d8dbdd774d767ba1349e00ceeeb-4
+1	We	O
+2	will	B-Positive
+3	come	I-Positive
+4	back	I-Positive
+5	to	O
+6	Dana	O
+7	Beach	O
+8	.	O
+
+# sent_id=opener_en/kaf/hotel/english00191_e2c6a1fdfc1d286a4beee6e62ab0d407-1
+1	Great	B-Positive
+2	location	O
+3	but	O
+4	very	B-Negative
+5	poor	I-Negative
+6	service	O
+7	and	O
+8	loud	B-Negative
+
+# sent_id=opener_en/kaf/hotel/english00191_e2c6a1fdfc1d286a4beee6e62ab0d407-2
+1	Service	O
+2	was	O
+3	rather	B-Negative
+4	poor	I-Negative
+5	,	O
+6	and	O
+7	the	O
+8	reception	O
+9	staff	O
+10	was	O
+11	not	B-Negative
+12	very	I-Negative
+13	friendly	I-Negative
+14	or	I-Negative
+15	helpful	I-Negative
+16	.	O
+
+# sent_id=opener_en/kaf/hotel/english00191_e2c6a1fdfc1d286a4beee6e62ab0d407-3
+1	Our	O
+2	room	O
+3	was	O
+4	right	B-Negative
+5	next	I-Negative
+6	to	I-Negative
+7	the	I-Negative
+8	bar	I-Negative
+9	/	I-Negative
+10	club	I-Negative
+11	area	I-Negative
+12	.	O
+
+# sent_id=opener_en/kaf/hotel/english00191_e2c6a1fdfc1d286a4beee6e62ab0d407-4
+1	We	O
+2	had	O
+3	to	O
+4	go	O
+5	through	O
+6	it	O
+7	to	O
+8	go	O
+9	to	O
+10	sleep	O
+11	,	O
+12	and	O
+13	did	B-Negative
+14	not	I-Negative
+15	feel	I-Negative
+16	very	I-Negative
+17	safe	I-Negative
+18	at	I-Negative
+19	all	I-Negative
+20	.	O
+
+# sent_id=opener_en/kaf/hotel/english00191_e2c6a1fdfc1d286a4beee6e62ab0d407-5
+1	Also	O
+2	,	O
+3	we	O
+4	could	O
+5	hear	B-Negative
+6	the	O
+7	loud	O
+8	disco	O
+9	music	O
+10	till	O
+11	very	O
+12	late	O
+13	in	O
+14	the	O
+15	morning	O
+16	,	O
+17	and	O
+18	nothing	O
+19	could	O
+20	be	O
+21	done	O
+22	about	O
+23	it	O
+24	even	O
+25	after	O
+26	we	O
+27	complained	O
+28	.	O
+
+# sent_id=opener_en/kaf/hotel/english00191_e2c6a1fdfc1d286a4beee6e62ab0d407-6
+1	The	O
+2	major	O
+3	plus	O
+4	:	O
+5	location	O
+6	is	O
+7	excellent	B-Positive
+8	and	O
+9	the	O
+10	price	O
+11	affordable	B-Positive
+12	.	O
+
+# sent_id=opener_en/kaf/hotel/english00023_22d8107c2e6ea01e0c2ab9855eb9fd86-1
+1	Best	B-Positive
+2	vacation	I-Positive
+3	ever	I-Positive
+4	!	I-Positive
+
+# sent_id=opener_en/kaf/hotel/english00023_22d8107c2e6ea01e0c2ab9855eb9fd86-2
+1	Overall	O
+2	our	O
+3	stay	O
+4	at	O
+5	the	O
+6	Grand	O
+7	Palladium	O
+8	was	O
+9	the	B-Positive
+10	best	I-Positive
+11	vacation	I-Positive
+12	I	I-Positive
+13	have	I-Positive
+14	ever	I-Positive
+15	had	I-Positive
+16	.	O
+
+# sent_id=opener_en/kaf/hotel/english00023_22d8107c2e6ea01e0c2ab9855eb9fd86-3
+1	The	O
+2	food	O
+3	choices	O
+4	were	O
+5	outstanding	B-Positive
+6	.	O
+
+# sent_id=opener_en/kaf/hotel/english00023_22d8107c2e6ea01e0c2ab9855eb9fd86-4
+1	The	O
+2	staff	O
+3	were	O
+4	friendly	B-Positive
+5	and	O
+6	knowledgeable	B-Positive
+7	.	O
+
+# sent_id=opener_en/kaf/hotel/english00023_22d8107c2e6ea01e0c2ab9855eb9fd86-5
+1	The	O
+2	pool	O
+3	was	O
+4	amazing	B-Positive
+5	,	O
+6	the	O
+7	entertainment	O
+8	was	O
+9	excellent	B-Positive
+10	.	O
+
+# sent_id=opener_en/kaf/hotel/english00023_22d8107c2e6ea01e0c2ab9855eb9fd86-6
+1	We	O
+2	cant	O
+3	began	O
+4	to	O
+5	say	O
+6	enough	O
+7	good	O
+8	things	O
+9	about	O
+10	our	O
+11	stay	O
+12	,	O
+13	but	O
+14	we	O
+15	will	B-Positive
+16	definitely	I-Positive
+17	be	I-Positive
+18	back	I-Positive
+19	this	I-Positive
+20	year	I-Positive
+21	!	I-Positive
+22	!	I-Positive
+23	!	I-Positive
+
+# sent_id=opener_en/kaf/hotel/english00166_cabe0f1ab6bab341e2fd51db06738b2a-1
+1	Wakacje	O
+
+# sent_id=opener_en/kaf/hotel/english00166_cabe0f1ab6bab341e2fd51db06738b2a-2
+1	i	O
+2	spent	B-Positive
+3	there	I-Positive
+4	the	O
+5	best	O
+6	holiday	O
+7	in	O
+8	my	O
+9	life.	O
+10	i	O
+11	hope	O
+12	that	O
+13	i	O
+14	'll	B-Positive
+15	come	I-Positive
+16	back	I-Positive
+17	there.	O
+18	i	O
+19	met	O
+20	very	O
+21	nice	O
+22	people.	O
+23	there	B-Positive
+24	was	I-Positive
+25	very	O
+26	friendly	O
+27	animator	O
+28	·	O
+29	Ala	O
+30	Nani	O
+31	.	O
+
+# sent_id=opener_en/kaf/hotel/english00166_cabe0f1ab6bab341e2fd51db06738b2a-3
+1	He	O
+2	was	O
+3	soo	O
+4	handsome	O
+5	,	O
+6	nice	O
+7	and	O
+8	funny.	O
+9	i	O
+10	really	O
+11	want	O
+12	next	O
+13	holidays	O
+14	becouse	O
+15	i	O
+16	want	O
+17	to	O
+18	come	O
+19	back	O
+20	to	O
+21	hurghada	O
+22	to	O
+23	this	O
+24	hotel	O
+25	and	O
+26	meet	O
+27	Ala	O
+28	and	O
+29	others	O
+30	animators	O
+31	again	O
+32	.	O
+
+# sent_id=opener_en/kaf/hotel/english00221_fbcfafad33cef47cd341ecc409a0f76a-1
+1	Bad	B-Negative
+2	impression	O
+3	in	O
+4	Paris	O
+
+# sent_id=opener_en/kaf/hotel/english00221_fbcfafad33cef47cd341ecc409a0f76a-2
+1	The	O
+2	best	B-Positive
+3	reason	I-Positive
+4	to	I-Positive
+5	choose	I-Positive
+6	Lord	I-Positive
+7	Byron	I-Positive
+8	hotel	I-Positive
+9	was	O
+10	it	O
+11	's	O
+12	location	O
+13	and	O
+14	price	O
+15	.	O
+
+# sent_id=opener_en/kaf/hotel/english00221_fbcfafad33cef47cd341ecc409a0f76a-3
+1	It	O
+2	's	O
+3	locate	B-Positive
+4	near	I-Positive
+5	Champ	I-Positive
+6	Elysee	I-Positive
+7	,	I-Positive
+8	Arc	I-Positive
+9	de	I-Positive
+10	Triump	I-Positive
+11	and	O
+12	very	B-Positive
+13	close	I-Positive
+14	to	I-Positive
+15	George	I-Positive
+16	5	I-Positive
+17	metro	I-Positive
+18	station.The	I-Positive
+19	staff	O
+20	was	O
+21	very	B-Positive
+22	friendly	I-Positive
+23	.	O
+
+# sent_id=opener_en/kaf/hotel/english00221_fbcfafad33cef47cd341ecc409a0f76a-4
+1	But	O
+2	the	O
+3	room	O
+4	is	O
+5	very	B-Negative
+6	old	I-Negative
+7	and	O
+8	dirty	B-Negative
+9	.	O
+
+# sent_id=opener_en/kaf/hotel/english00221_fbcfafad33cef47cd341ecc409a0f76a-5
+1	We	O
+2	spend	O
+3	4	O
+4	night	O
+5	at	O
+6	this	O
+7	hotel	O
+8	.	O
+
+# sent_id=opener_en/kaf/hotel/english00221_fbcfafad33cef47cd341ecc409a0f76a-6
+1	After	O
+2	2	O
+3	nights	O
+4	we	O
+5	had	O
+6	itchhing	O
+7	,	O
+8	our	O
+9	last	O
+10	night	O
+11	in	O
+12	this	O
+13	hotel	O
+14	we	O
+15	can	O
+16	not	O
+17	slept	O
+18	because	O
+19	of	O
+20	itching	O
+21	.	O
+
+# sent_id=opener_en/kaf/hotel/english00221_fbcfafad33cef47cd341ecc409a0f76a-7
+1	We	O
+2	really	O
+3	want	O
+4	to	O
+5	going	O
+6	back	O
+7	to	O
+8	our	O
+9	home	O
+10	and	O
+11	had	O
+12	a	O
+13	good	O
+14	sleep	O
+15	(	O
+16	and	O
+17	a	O
+18	medicine	O
+19	)	O
+20	.	O
+
+# sent_id=opener_en/kaf/hotel/english00221_fbcfafad33cef47cd341ecc409a0f76a-8
+1	After	O
+2	we	O
+3	coming	O
+4	back	O
+5	to	O
+6	our	O
+7	home	O
+8	I	O
+9	got	O
+10	a	O
+11	redness	O
+12	rash	O
+13	the	O
+14	whole	O
+15	leg	O
+16	.	O
+
+# sent_id=opener_en/kaf/hotel/english00221_fbcfafad33cef47cd341ecc409a0f76a-9
+1	We	O
+2	had	O
+3	a	O
+4	bad	O
+5	impression	O
+6	about	O
+7	Paris	O
+8	.	O
+
+# sent_id=opener_en/kaf/hotel/english00221_fbcfafad33cef47cd341ecc409a0f76a-10
+1	Our	O
+2	trip	O
+3	in	O
+4	Paris	O
+5	was	O
+6	totally	O
+7	ruined	O
+8	by	O
+9	the	O
+10	itching	O
+11	from	O
+12	This	O
+13	hotel	O
+14	.	O
+
+# sent_id=opener_en/kaf/hotel/english00148_ddb06f1e4ab012d85f9120c394168c48-1
+1	Awesome	B-Positive
+2	resort	O
+3	and	O
+4	vacation	O
+
+# sent_id=opener_en/kaf/hotel/english00148_ddb06f1e4ab012d85f9120c394168c48-2
+1	Loved	B-Positive
+2	this	O
+3	holiday	O
+4	.	O
+
+# sent_id=opener_en/kaf/hotel/english00148_ddb06f1e4ab012d85f9120c394168c48-3
+1	Wonderful	B-Positive
+2	people	O
+3	and	O
+4	wonderful	B-Positive
+5	place	O
+6	.	O
+
+# sent_id=opener_en/kaf/hotel/english00148_ddb06f1e4ab012d85f9120c394168c48-4
+1	Couldn	B-Positive
+2	't	I-Positive
+3	ask	I-Positive
+4	for	I-Positive
+5	a	I-Positive
+6	better	I-Positive
+7	resort	I-Positive
+8	·	O
+9	the	O
+10	people	O
+11	are	O
+12	just	B-Positive
+13	amazing	I-Positive
+14	.	O
+
