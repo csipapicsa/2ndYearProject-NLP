@@ -7,6 +7,8 @@ import json
 import torch
 # dict
 from collections import defaultdict 
+#
+import numpy as np
 
 def skip_gram(corpus):    
     #from collections import defaultdict 
@@ -91,31 +93,45 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 ### simple statistics about the sets
-def simple_stat(data):
-    # input is an dataset of sentencies
+def simple_stat(data, minbins=False):
+    # input is an dataset of sentences
     lengths = []
     for i in data:
         lengths.append(len(i))
-    print("length of longest sentence: ",max(lengths))
-    print("length of shortest sentence: ",min(lengths))
     # bins
     bins = []
-    for k in np.logspace(0,3,4):
-        for i in range(1,11):
-            bins.append(i*k)
     bin = [10, 20, 30,40,50,70,80,90,100,150,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,
            1700,1800,1900,2000,2200,2400,2600,2800,3000]
     #bin = [1,2,3,4,5,6,7,8,9,10,20,30,40,50,60,70,80,90,100]
-    plt.hist(lengths, bins = bin)
-    plt.hist(lengths, bins = range(1,3400,10), color = "black", alpha=0.7)
+    if minbins==True:
+        print("##### SHOW NUMBER OF SHORTEST SENTENCES ONLY #####")
+        bins = [0,1,2,3,4,5,6,7,8,9,10]
+        counts, edges, bars = plt.hist(lengths, bins = bins)
+        plt.bar_label(bars)
+    else:
+        plt.hist(lengths, bins = bin, alpha=0.7)
+        plt.hist(lengths, bins = range(1,3400,10), color = "black", alpha=0.7)
+    print("length of longest sentence: ",max(lengths))
+    print("length of shortest sentence: ",min(lengths))    
     plt.ylabel("Count of instancies")
     plt.xlabel("Count of words")
     print("average number of words in the sentence")
     print(np.average(lengths))
     plt.show()
-    print("###################")
+    print("###################\n")
     return None
-    
+
+def print_short_sentence(data, length=1):
+    # length defines the maximum length of a sentence
+    rangee = np.arange(0, length+1, dtype=int)
+    for i in data:
+        if type(i) == str: # for the train sent
+            if len(i.split()) in rangee:
+                print(i)
+        elif type(i) == list:
+            if len(i) in rangee:
+                print(i)
+
 if __name__ == "__main__":
     import sys
     import gzip
