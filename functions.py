@@ -87,8 +87,42 @@ def sent_result_converter(number):
     if number>threshold:
         return "positive"
 
-        
+import matplotlib.pyplot as plt
+import numpy as np
+
+### simple statistics about the sets
+def simple_stat(data):
+    # input is an dataset of sentencies
+    lengths = []
+    for i in data:
+        lengths.append(len(i))
+    print("length of longest sentence: ",max(lengths))
+    print("length of shortest sentence: ",min(lengths))
+    # bins
+    bins = []
+    for k in np.logspace(0,3,4):
+        for i in range(1,11):
+            bins.append(i*k)
+    bin = [10, 20, 30,40,50,70,80,90,100,150,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,
+           1700,1800,1900,2000,2200,2400,2600,2800,3000]
+    #bin = [1,2,3,4,5,6,7,8,9,10,20,30,40,50,60,70,80,90,100]
+    plt.hist(lengths, bins = bin)
+    plt.hist(lengths, bins = range(1,3400,10), color = "black", alpha=0.7)
+    plt.ylabel("Count of instancies")
+    plt.xlabel("Count of words")
+    print("average number of words in the sentence")
+    print(np.average(lengths))
+    plt.show()
+    print("###################")
+    return None
+    
 if __name__ == "__main__":
     import sys
     import gzip
     import json
+
+######################### NOTES ##########################    
+### Reloading a function if its modified in a file
+# import functions as f
+# from importlib import reload
+# reload(f)
