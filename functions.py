@@ -121,6 +121,43 @@ def simple_stat(data, minbins=False):
     print("###################\n")
     return None
 
+import contractions
+from nltk.corpus import wordnet
+
+def concat_and_negation(text):
+    exp_text = contractions.fix(text)
+    found_not = False
+    antonym = ""
+    words = exp_text.split()
+    new_sent = []
+    for word in words:
+        if word == "not":
+            found_not = True
+        elif found_not:
+            found_not = False
+            syns = wordnet.synsets(word)
+            if len(syns) > 0:
+                syns = wordnet.synsets(word)[0]
+                if syns.pos() == "a" or syns.pos() == "r":
+                    for syn in wordnet.synsets(word):
+                        for l in syn.lemmas():
+                            if l.antonyms():
+                                antonym = (l.antonyms()[0].name())
+                            else:
+                                new_sent.append("not")
+                                new_sent.append(word)
+                    new_sent.append(antonym)
+                else:
+                    new_sent.append("not")
+                    new_sent.append(word)
+            else:
+                new_sent.append("not")
+                new_sent.append(word)
+        else:
+            new_sent.append(word)
+    exp_text = ' '.join(new_sent)
+    return exp_text
+
 def print_short_sentence(data, length=1):
     # length defines the maximum length of a sentence
     rangee = np.arange(0, length+1, dtype=int)
