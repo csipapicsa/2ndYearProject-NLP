@@ -169,6 +169,28 @@ def print_short_sentence(data, length=1):
             if len(i) in rangee:
                 print(i)
 
+def json_divide(json_file):
+    sent_dict = {"positive": 1, "negative": 0}
+    data = json_file
+    train_sent = []
+    train_sentiment = []
+    train_idx = []
+    missing_indexies = []
+    y_train = []
+    length_of_sentencies_counter = []
+    for i in range(len(data)):
+        try:
+            train_sent.append(data[i]["reviewText"])
+            train_sentiment.append(data[i]["sentiment"])
+            train_idx.append(i)
+            y_train.append(sent_dict[data[i]["sentiment"]])
+        #length_of_sentencies_counter.append(len(data[i]["reviewText"].split()))
+        except KeyError:
+            missing_indexies.append(i)
+            continue
+    return train_sent, train_sentiment, train_idx, missing_indexies
+    
+
 if __name__ == "__main__":
     import sys
     import gzip
