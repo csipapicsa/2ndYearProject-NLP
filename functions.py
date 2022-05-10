@@ -200,17 +200,13 @@ def json_divide(json_file):
     return train_sent, train_sentiment, train_idx, missing_indexies
     
 
-if __name__ == "__main__":
-    import sys
-    import gzip
-    import json
 
 def lemmatize_sentencelist(sentencelist): 
     wnl = WordNetLemmatizer()
     lemmatized_sentences = []
     for sentence in sentencelist: 
         lemmatized_sentence = [wnl.lemmatize(word) for word in sentence.split(" ")]
-        lemmatized_sentences.append(lemmatized_sentence)
+        lemmatized_sentences.append(" ".join(lemmatized_sentence))
     return lemmatized_sentences
 
 #only works for english
@@ -222,7 +218,13 @@ def pos_tag_stringlist(strlist, shouldTokenize):
         for str in strlist: pos_tagged_strlist.append(pos_tag(str))
     return pos_tagged_strlist
     
-######################### NOTES ##########################    
+
+if __name__ == "__main__":
+    import sys
+    import gzip
+    import json
+    
+    ######################### NOTES ##########################    
 ### Reloading a function if its modified in a file
 # import functions as f
 # from importlib import reload
