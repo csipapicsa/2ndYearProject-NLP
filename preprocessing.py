@@ -5,6 +5,10 @@ import re
 # we need to delete punctuations and some stop words
 import string
 
+# Tokenizer
+
+from keras.preprocessing.text import Tokenizer
+
 def basic_preprocess(text):
     my_stop_words = ['$',"'","``","''","'s"]
     whitespace = [' ', '\t', '\n', '\r', '\x0b', '\x0c']
@@ -51,12 +55,24 @@ def remove_stop_words(text):
     d_sent = []
     for sent in text:
         d_sent = [] # temp for sentence 
-        for c in sent:
-            if c in stop_words:
+        for w in sent:
+            if w in stop_words:
                 None
             else:
-                d_sent.append(c)
+                d_sent.append(w)
         clean_text.append(list(d_sent))
         length_of_sentencies_counter.append(len(d_sent))
         #print(d_sent)
     return clean_text,length_of_sentencies_counter #length_of_sentencies_counter
+    
+    
+    
+def tokenizer_train(text):
+    tokenizer = Tokenizer()
+    tokenizer.fit_on_texts(text)
+    text_to_sequence = tokenizer.texts_to_sequences(text)
+    return tokenizer, text_to_sequence
+    
+def tokenizer_test(text, tokenizer):
+    text_to_sequence = tokenizer.texts_to_sequences(text)
+    return text_to_sequence
