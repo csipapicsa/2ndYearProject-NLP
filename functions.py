@@ -205,6 +205,23 @@ if __name__ == "__main__":
     import gzip
     import json
 
+def lemmatize_sentencelist(sentencelist): 
+    wnl = WordNetLemmatizer()
+    lemmatized_sentences = []
+    for sentence in sentencelist: 
+        lemmatized_sentence = [wnl.lemmatize(word) for word in sentence.split(" ")]
+        lemmatized_sentences.append(lemmatized_sentence)
+    return lemmatized_sentences
+
+#only works for english
+def pos_tag_stringlist(strlist, shouldTokenize):
+    pos_tagged_strlist = []
+    if shouldTokenize: 
+        for str in strlist: pos_tagged_strlist.append(pos_tag(word_tokenize(str)))
+    else: 
+        for str in strlist: pos_tagged_strlist.append(pos_tag(str))
+    return pos_tagged_strlist
+    
 ######################### NOTES ##########################    
 ### Reloading a function if its modified in a file
 # import functions as f
