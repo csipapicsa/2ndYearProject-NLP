@@ -63,12 +63,19 @@ def remove_stop_words(text):
     clean_text = [] # for the whole set
     length_of_sentencies_counter = []
     for sent in text:
-        d_sent = [] # temp for sentence 
-        for w in sent:
-            if w in stop_words:
-                None
-            else:
-                d_sent.append(w)
+        d_sent = [] # temp for sentence
+        if type(sent) == str: 
+            for w in sent.split():
+                if w in stop_words:
+                    None
+                else:
+                    d_sent.append(w)
+        else:
+            for w in sent:
+                if w in stop_words:
+                    None
+                else:
+                    d_sent.append(w)
         clean_text.append(d_sent)
         length_of_sentencies_counter.append(len(d_sent))
         #print(d_sent)
