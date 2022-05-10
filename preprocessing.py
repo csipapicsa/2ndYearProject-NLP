@@ -6,8 +6,18 @@ import re
 import string
 
 # Tokenizer
-
 from keras.preprocessing.text import Tokenizer
+
+# Grammar corrector
+import pkg_resources
+from symspellpy.symspellpy import SymSpell, Verbosity
+sym_spell = SymSpell(max_dictionary_edit_distance=2, prefix_length=7)
+
+
+dictionary_path = pkg_resources.resource_filename(
+    "symspellpy", "frequency_dictionary_en_82_765.txt"
+)
+sym_spell.load_dictionary(dictionary_path, term_index=0, count_index=1)
 
 def basic_preprocess(text):
     my_stop_words = ['$',"'","``","''","'s"]
@@ -30,7 +40,7 @@ def basic_preprocess(text):
                 None
             else:
                 d_sent.append(c)
-        clean_text.append(list(d_sent))
+        clean_text.append(d_sent)
         length_of_sentencies_counter.append(len(d_sent))
         #print(d_sent)
     return clean_text,length_of_sentencies_counter #length_of_sentencies_counter
@@ -52,7 +62,6 @@ def remove_stop_words(text):
 
     clean_text = [] # for the whole set
     length_of_sentencies_counter = []
-    d_sent = []
     for sent in text:
         d_sent = [] # temp for sentence 
         for w in sent:
@@ -60,10 +69,10 @@ def remove_stop_words(text):
                 None
             else:
                 d_sent.append(w)
-        clean_text.append(list(d_sent))
+        clean_text.append(d_sent)
         length_of_sentencies_counter.append(len(d_sent))
         #print(d_sent)
-    return clean_text,length_of_sentencies_counter #length_of_sentencies_counter
+    return clean_text #length_of_sentencies_counter
     
     
     
@@ -76,3 +85,63 @@ def tokenizer_train(text):
 def tokenizer_test(text, tokenizer):
     text_to_sequence = tokenizer.texts_to_sequences(text)
     return text_to_sequence
+    
+    
+def grammar_corrector(text):
+    # spell checker turn everything into lovercase, since words with upper case letters give worst results
+    cleaned_text = []
+    for line in text:
+        temp_line = []
+        # FEED WITH LIST OF LIST OR SIMPLE SENTENCE
+        if type(line) == str:
+            for word in line.split():
+                if word in ['!','?','.']: # keep the basic puntuations
+                    temp_line.append(word)
+                else:
+                    suggestions = sym_spell.lookup(word.lower(), Verbosity.CLOSEST,max_edit_distance=2)
+                    # if there is no suggestion append "UNK" token
+                    if len(suggestions) == 0:
+                        temp_line.append("UNK")
+                    else:
+                        temp_line.append(suggestions[0].term)
+        else:
+            for word in line:
+                if word in ['!','?','.']: # keep the basic puntuations
+                    temp_line.append(word)
+                else:
+                    suggestions = sym_spell.lookup(word.lower(), Verbosity.CLOSEST,max_edit_distance=2)
+                    # if there is no suggestion append "UNK" token
+                    if len(suggestions) == 0:
+                        temp_line.append("UNK")
+                    else:
+                        temp_line.append(suggestions[0].term)
+        cleaned_text.append(temp_line)
+    return cleaned_text
+    
+    
+def grammar_correction(text):
+    cleaned_text = []
+    for line in text:
+        temp_line = []
+        print(line)
+        # FEED WITH LIST OF LIST OR SIMPLE SENTENCE
+        if type(line) == str:
+            for word in line.split():
+            
+                suggestions = sym_spell.lookup(word, Verbosity.CLOSEST,max_edit_distance=2)
+                # if there is no suggestion append "UNK" token
+                if len(suggestions) == 0:
+                    temp_line.append("UNK")
+                else:
+                    temp_line.append(suggestions[0].term)
+        else:
+            for word in line:
+                suggestions = sym_spell.lookup(word, Verbosity.CLOSEST,max_edit_distance=2)
+                # if there is no suggestion append "UNK" token
+                if len(suggestions) == 0:
+                    temp_line.append("UNK")
+                else:
+                    temp_line.append(suggestions[0].term)
+        print(temp_line)
+        cleaned_text.append(temp_line)
+    return cleaned_text
