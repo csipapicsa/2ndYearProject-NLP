@@ -9,6 +9,12 @@ import torch
 from collections import defaultdict 
 #
 import numpy as np
+import nltk
+nltk.download("wordnet") 
+from nltk.stem import WordNetLemmatizer
+# https://www.nltk.org/api/nltk.tag.html
+from nltk import pos_tag, word_tokenize
+nltk.download('averaged_perceptron_tagger')
 
 def skip_gram(corpus):    
     #from collections import defaultdict 
