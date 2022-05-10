@@ -10,6 +10,12 @@ from collections import defaultdict
 #
 import numpy as np
 
+import nltk
+nltk.download("wordnet") 
+from nltk.stem import WordNetLemmatizer
+from nltk import pos_tag, word_tokenize
+nltk.download('averaged_perceptron_tagger')
+
 def skip_gram(corpus):    
     #from collections import defaultdict 
     #import torch
@@ -195,6 +201,31 @@ if __name__ == "__main__":
     import sys
     import gzip
     import json
+    
+    
+    
+
+# TODO OUGHT TO CHANGE EVERYTHING TO LOWER CASE  !!!!
+def lemmatize_token_listlist(token_listlist, reassembleSntcs): 
+    wnl = WordNetLemmatizer()
+    if reassembleSntcs: 
+        lemmatized_tokensentence_list = []
+        for tokenlist in token_listlist: lemmatized_tokensentence_list.append(' '.join([wnl.lemmatize(tokens) for tokens in tokenlist]))
+        return lemmatized_tokensentence_list
+    else: 
+        lemmatized_token_listlist = []
+        for tokenlist in token_listlist: 
+            lemmatized_token_listlist.append([wnl.lemmatize(tokens) for tokens in tokenlist])
+    return lemmatized_token_listlist
+
+#only works for english
+def pos_tag_stringlist(strlist, shouldTokenize):
+    pos_tagged_strlist = []
+    if shouldTokenize: 
+        for str in strlist: pos_tagged_strlist.append(pos_tag(word_tokenize(str)))
+    else: 
+        for str in strlist: pos_tagged_strlist.append(pos_tag(str))
+    return pos_tagged_strlist
 
 ######################### NOTES ##########################    
 ### Reloading a function if its modified in a file
