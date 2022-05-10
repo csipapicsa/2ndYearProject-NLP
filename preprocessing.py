@@ -13,11 +13,27 @@ import pkg_resources
 from symspellpy.symspellpy import SymSpell, Verbosity
 sym_spell = SymSpell(max_dictionary_edit_distance=2, prefix_length=7)
 
+# NN
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras import layers
+
+# plot
+import matplotlib.pyplot as plt
 
 dictionary_path = pkg_resources.resource_filename(
     "symspellpy", "frequency_dictionary_en_82_765.txt"
 )
 sym_spell.load_dictionary(dictionary_path, term_index=0, count_index=1)
+
+# develop the code 
+from importlib import reload
+
+def sentiment_converter(classes, dictionary):
+    classes_converted = []
+    for c in classes:
+        classes_converted.append(dictionary[c])
+    return classes_converted
 
 def basic_preprocess(text):
     my_stop_words = ['$',"'","``","''","'s"]
@@ -82,7 +98,8 @@ def remove_stop_words(text):
     return clean_text #length_of_sentencies_counter
     
     
-    
+'''# DO WE NEED THEM? by Gergo
+# tokenizer     
 def tokenizer_train(text):
     tokenizer = Tokenizer()
     tokenizer.fit_on_texts(text)
@@ -91,7 +108,7 @@ def tokenizer_train(text):
     
 def tokenizer_test(text, tokenizer):
     text_to_sequence = tokenizer.texts_to_sequences(text)
-    return text_to_sequence
+    return text_to_sequence'''
     
     
 def grammar_corrector(text):
@@ -152,3 +169,22 @@ def grammar_correction(text):
         print(temp_line)
         cleaned_text.append(temp_line)
     return cleaned_text
+    
+    
+def tokenizer_init(train,test):
+    # use both train and test set maybe to not lost any idx from the test set
+    tokenizer = Tokenizer()
+    tokenizer.fit_on_texts(train)
+    tokenizer.fit_on_texts(test)
+    return tokenizer # return the tokenizer
+    
+    
+def sequence_pad(text, padding='post', maxlen=50):
+    res = tf.keras.preprocessing.sequence.pad_sequences(
+        text,
+        maxlen=maxlen,
+        dtype='int32',
+        padding=padding,
+        truncating='pre',
+        value=0.0)
+    return res
