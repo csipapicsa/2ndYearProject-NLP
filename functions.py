@@ -241,7 +241,9 @@ def init_log_for_training():
     save_time = str(dateTimeObj.year)+'-'+str(dateTimeObj.month)+'-'+str(dateTimeObj.day)+'-'+str(dateTimeObj.hour)+'-'+str(dateTimeObj.minute)+'-'+str(dateTimeObj.second)
     columns = ["Running ID", "Model Name", "Expand Contractions", "Basic Preprocessing", 
            "Grammar Correction", "Simplify Negotiations", "Lemmatize", "Remove Stop Words", "No. of Sentences", 
-           "Train Accuracy STOP", "Test Accuracy STOP", "Train Loss STOP", "Test Loss STOP"]
+           "Train Accuracy STOP", "Test Accuracy STOP", "Train Loss STOP", "Test Loss STOP",
+           "Train_sentence_fully_catched_ratio", "Test_sentence_fully_catched_ratio",
+           "Length of Sentence"]
     # dataframe
     results_dataframe = pd.DataFrame(columns=columns)
     return results_dataframe, save_time
@@ -282,6 +284,13 @@ def oldest_combinations():
    "Grammar Correction","Simplify Negotiations", 
    "Lemmatize", "Remove Stop Words", "No. of Sentences"]].values
     return past_combinations
+
+def lengths_catch(train, test, length_of_sentence=50):
+    train_lengths = [len(word) for word in train if len(word) <= length_of_sentence]
+    test_lengths = [len(word) for word in test if len(word) <= length_of_sentence]
+    train_percent = len(train_lengths) / len(train)
+    test_percent = len(test_lengths) / len(test)
+    return train_percent*100, test_percent*100
 
     ######################### NOTES ##########################    
 ### Reloading a function if its modified in a file

@@ -1,7 +1,7 @@
 # time
 from datetime import datetime
 
-def RNN_train(X_train_p, y_train, X_test, y_test, tokenizer, maxlen=50):
+def RNN_train(X_train_p, y_train, X_test, y_test, tokenizer, maxlen=50, early_stop_patience=2):
     import numpy as np
     # convert the sets into a numpy array
     X_train_p = np.array(X_train_p)
@@ -19,7 +19,7 @@ def RNN_train(X_train_p, y_train, X_test, y_test, tokenizer, maxlen=50):
     
     # define the model
 
-    embedding_size=200 # bigger = slower train
+    embedding_size=100 # bigger = slower train
     model=Sequential()
     model.add(Embedding(vocabulary_size+1, embedding_size, input_length=maxlen))
     model.add(LSTM(100))
@@ -36,7 +36,7 @@ def RNN_train(X_train_p, y_train, X_test, y_test, tokenizer, maxlen=50):
     from keras.callbacks import ReduceLROnPlateau
     from keras.callbacks import EarlyStopping
     from keras.callbacks import ModelCheckpoint
-    earlyStopping = EarlyStopping(monitor='val_accuracy', patience=2, verbose=1, mode='max',restore_best_weights=False)
+    earlyStopping = EarlyStopping(monitor='val_accuracy', patience=early_stop_patience, verbose=1, mode='max',restore_best_weights=False)
     
     # activete this line, if you wanna save the best model: 
     # mcp_save = ModelCheckpoint('model/'+save_time+'-model.mdl_wts.hdf5', save_best_only=True, monitor='val_accuracy', mode='max')
