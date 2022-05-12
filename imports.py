@@ -6,12 +6,15 @@ import json
 
 import codecs
 
+# dataframe
 import numpy as np
+import pandas as pd
+
 
 import random
 
 # plot
-import matplotlib.pyplot as plt
+
 import scipy.stats as stats
 from sklearn.metrics import accuracy_score
 
@@ -32,6 +35,9 @@ from collections import defaultdict
 # spelling correction
 import pkg_resources
 from symspellpy.symspellpy import SymSpell, Verbosity
+
+# reporting
+from sklearn.metrics import accuracy_score
 
 sym_spell = SymSpell(max_dictionary_edit_distance=2, prefix_length=7)
 dictionary_path = pkg_resources.resource_filename(
