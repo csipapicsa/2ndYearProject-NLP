@@ -265,7 +265,24 @@ def plot_model_history(history):
     plt.xlabel('Epochs', fontsize=15, color='black')
     plt.ylabel('Accuracy\nLoss', fontsize=15, color='black')
     plt.show()
-    
+
+
+# read in the oldest file:
+def oldest_combinations():
+    import glob
+    import os
+
+    list_of_files = glob.glob('results/*.csv')
+    #print(list_of_files)# * means all if need specific format then *.csv
+    latest_file = max(list_of_files, key=os.path.getmtime)
+    #print(latest_file)
+    # read in
+    p = pd.read_csv(latest_file, index_col=[0])
+    past_combinations = p[["Expand Contractions","Basic Preprocessing",
+   "Grammar Correction","Simplify Negotiations", 
+   "Lemmatize", "Remove Stop Words", "No. of Sentences"]].values
+    return past_combinations
+
     ######################### NOTES ##########################    
 ### Reloading a function if its modified in a file
 # import functions as f
