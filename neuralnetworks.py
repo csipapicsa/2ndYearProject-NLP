@@ -36,7 +36,7 @@ def RNN_train(X_train_p, y_train, X_test, y_test, tokenizer, maxlen=50):
     from keras.callbacks import ReduceLROnPlateau
     from keras.callbacks import EarlyStopping
     from keras.callbacks import ModelCheckpoint
-    earlyStopping = EarlyStopping(monitor='val_accuracy', patience=1, verbose=1, mode='max',restore_best_weights=True)
+    earlyStopping = EarlyStopping(monitor='val_accuracy', patience=2, verbose=1, mode='max',restore_best_weights=False)
     
     # activete this line, if you wanna save the best model: 
     # mcp_save = ModelCheckpoint('model/'+save_time+'-model.mdl_wts.hdf5', save_best_only=True, monitor='val_accuracy', mode='max')

@@ -7,15 +7,12 @@ import json
 import torch
 # dict
 from collections import defaultdict 
-#
+# DF
 import numpy as np
-import nltk
-nltk.download("wordnet") 
-from nltk.stem import WordNetLemmatizer
-# https://www.nltk.org/api/nltk.tag.html
-from nltk import pos_tag, word_tokenize
-nltk.download('averaged_perceptron_tagger')
+import pandas as pd
 
+# time
+from datetime import datetime
 # plot 
 import matplotlib.pyplot as plt
 
@@ -145,7 +142,10 @@ def simplify_negation(text_list):
     for text in text_list:
         found_not = False
         antonym = ""
-        words = text.split()
+        if type(text) == str:
+            words = text.split()
+        else:
+            words = text
         new_sent = []
         for word in words:
             if word == "not":
@@ -236,6 +236,16 @@ def pos_tag_stringlist(strlist, shouldTokenize):
         for str in strlist: pos_tagged_strlist.append(pos_tag(str))
     return pos_tagged_strlist
     
+def init_log_for_training():
+    dateTimeObj = datetime.now()
+    save_time = str(dateTimeObj.year)+'-'+str(dateTimeObj.month)+'-'+str(dateTimeObj.day)+'-'+str(dateTimeObj.hour)+'-'+str(dateTimeObj.minute)+'-'+str(dateTimeObj.second)
+    columns = ["Running ID", "Model Name", "Expand Contractions", "Basic Preprocessing", 
+           "Grammar Correction", "Simplify Negotiations", "Lemmatize", "Remove Stop Words", "No. of Sentences", 
+           "Train Accuracy STOP", "Test Accuracy STOP", "Train Loss STOP", "Test Loss STOP"]
+    # dataframe
+    results_dataframe = pd.DataFrame(columns=columns)
+    return results_dataframe, save_time
+
 
 if __name__ == "__main__":
     import sys
