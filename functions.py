@@ -16,6 +16,9 @@ from nltk.stem import WordNetLemmatizer
 from nltk import pos_tag, word_tokenize
 nltk.download('averaged_perceptron_tagger')
 
+# plot 
+import matplotlib.pyplot as plt
+
 def skip_gram(corpus):    
     #from collections import defaultdict 
     #import torch
@@ -211,8 +214,17 @@ def lemmatize_sentencelist(sentencelist):
     wnl = WordNetLemmatizer()
     lemmatized_sentences = []
     for sentence in sentencelist: 
-        lemmatized_sentence = [wnl.lemmatize(word) for word in sentence.split(" ")]
-        lemmatized_sentences.append(" ".join(lemmatized_sentence))
+        #print(sentence)
+        temp_sentence = []
+        if type(sentence) == str:
+            #print("its a string")
+            temp_sentence = [wnl.lemmatize(word) for word in sentence.split(" ")]
+            #print(temp_sentence)
+            #lemmatized_sentences.append(" ".join(temp_sentence))
+            lemmatized_sentences.append(temp_sentence)
+        else:
+            temp_sentence = [wnl.lemmatize(word) for word in sentence]
+            lemmatized_sentences.append(temp_sentence)
     return lemmatized_sentences
 
 #only works for english
@@ -229,6 +241,20 @@ if __name__ == "__main__":
     import sys
     import gzip
     import json
+    
+    
+def plot_model_history(history):
+    x = range(0,len(history.history["accuracy"]))
+    labels = range(1,len(history.history["accuracy"])+1)
+    plt.xticks(x, labels)
+    plt.plot(history.history["accuracy"], 'g--', label='train accuracy')
+    plt.plot(history.history["loss"], 'r--', label='train loss')
+    plt.plot(history.history["val_loss"], 'r:', label='validation loss')
+    plt.plot(history.history["val_accuracy"], 'g:', label='validation accuracy')
+    plt.legend()
+    plt.xlabel('Epochs', fontsize=15, color='black')
+    plt.ylabel('Accuracy\nLoss', fontsize=15, color='black')
+    plt.show()
     
     ######################### NOTES ##########################    
 ### Reloading a function if its modified in a file
