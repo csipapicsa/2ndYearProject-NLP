@@ -21,6 +21,14 @@ from tensorflow.keras import layers
 # plot
 import matplotlib.pyplot as plt
 
+# lemmatize
+import nltk
+nltk.download("wordnet") 
+from nltk.stem import WordNetLemmatizer
+# https://www.nltk.org/api/nltk.tag.html
+from nltk import pos_tag, word_tokenize
+nltk.download('averaged_perceptron_tagger')
+
 dictionary_path = pkg_resources.resource_filename(
     "symspellpy", "frequency_dictionary_en_82_765.txt"
 )
@@ -188,3 +196,21 @@ def sequence_pad(text, padding='post', maxlen=50):
         truncating='pre',
         value=0.0)
     return res
+    
+    
+def lemmatize_sentencelist(sentencelist): 
+    wnl = WordNetLemmatizer()
+    lemmatized_sentences = []
+    for sentence in sentencelist: 
+        #print(sentence)
+        temp_sentence = []
+        if type(sentence) == str:
+            #print("its a string")
+            temp_sentence = [wnl.lemmatize(word) for word in sentence.split(" ")]
+            #print(temp_sentence)
+            #lemmatized_sentences.append(" ".join(temp_sentence))
+            lemmatized_sentences.append(temp_sentence)
+        else:
+            temp_sentence = [wnl.lemmatize(word) for word in sentence]
+            lemmatized_sentences.append(temp_sentence)
+    return lemmatized_sentences
