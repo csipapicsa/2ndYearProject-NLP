@@ -59,7 +59,7 @@ def basic_preprocess(text):
         clean_text.append(d_sent)
         length_of_sentencies_counter.append(len(d_sent))
         #print(d_sent)
-    return clean_text,length_of_sentencies_counter #length_of_sentencies_counter
+    return clean_text #length_of_sentencies_counter
     
     
 def remove_stop_words(text): 
