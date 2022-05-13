@@ -141,6 +141,7 @@ def grammar_corrector(text):
                 if word in ['!','?','.']: # keep the basic puntuations
                     temp_line.append(word)
                 else:
+                    # print("##### THIS IS THE WORD: ", word.lower())
                     suggestions = sym_spell.lookup(word.lower(), Verbosity.CLOSEST,max_edit_distance=2)
                     # if there is no suggestion append "UNK" token
                     if len(suggestions) == 0:
@@ -150,33 +151,7 @@ def grammar_corrector(text):
         cleaned_text.append(temp_line)
     return cleaned_text
     
-    
-def grammar_correction(text):
-    cleaned_text = []
-    for line in text:
-        temp_line = []
-        print(line)
-        # FEED WITH LIST OF LIST OR SIMPLE SENTENCE
-        if type(line) == str:
-            for word in line.split():
-            
-                suggestions = sym_spell.lookup(word, Verbosity.CLOSEST,max_edit_distance=2)
-                # if there is no suggestion append "UNK" token
-                if len(suggestions) == 0:
-                    temp_line.append("UNK")
-                else:
-                    temp_line.append(suggestions[0].term)
-        else:
-            for word in line:
-                suggestions = sym_spell.lookup(word, Verbosity.CLOSEST,max_edit_distance=2)
-                # if there is no suggestion append "UNK" token
-                if len(suggestions) == 0:
-                    temp_line.append("UNK")
-                else:
-                    temp_line.append(suggestions[0].term)
-        print(temp_line)
-        cleaned_text.append(temp_line)
-    return cleaned_text
+ 
     
     
 def tokenizer_init(train,test):

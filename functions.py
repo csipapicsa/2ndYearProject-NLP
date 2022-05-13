@@ -133,6 +133,7 @@ from nltk.corpus import wordnet
 def simplify_contraction(text_list):
     new_data = []
     for text in text_list:
+        #print(text)
         exp_text = contractions.fix(text)
         new_data.append(exp_text)
     return new_data
@@ -140,6 +141,7 @@ def simplify_contraction(text_list):
 def simplify_negation(text_list):
     new_data = []
     for text in text_list:
+        #print(text)
         found_not = False
         antonym = ""
         if type(text) == str:
@@ -147,6 +149,7 @@ def simplify_negation(text_list):
         else:
             words = text
         new_sent = []
+        #print(words)
         for word in words:
             if word == "not":
                 found_not = True
@@ -172,7 +175,8 @@ def simplify_negation(text_list):
                     new_sent.append(word)
             else:
                 new_sent.append(word)
-        text = ' '.join(new_sent)
+        #print(new_sent)
+        #text = ' '.join(new_sent) # removed by Gergo
         new_data.append(text)
     return new_data
 
@@ -243,7 +247,7 @@ def init_log_for_training():
            "Grammar Correction", "Simplify Negotiations", "Lemmatize", "Remove Stop Words", "No. of Sentences", 
            "Train Accuracy STOP", "Test Accuracy STOP", "Train Loss STOP", "Test Loss STOP",
            "Train_sentence_fully_catched_ratio", "Test_sentence_fully_catched_ratio",
-           "Length of Sentence"]
+           "Length of Sentence", "Batch size of RNN"]
     # dataframe
     results_dataframe = pd.DataFrame(columns=columns)
     return results_dataframe, save_time

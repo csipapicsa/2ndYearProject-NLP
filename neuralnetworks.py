@@ -1,7 +1,7 @@
 # time
 from datetime import datetime
 
-def RNN_train(X_train_p, y_train, X_test, y_test, tokenizer, maxlen=50, early_stop_patience=2):
+def RNN_train(X_train_p, y_train, X_test, y_test, tokenizer, maxlen=50, early_stop_patience=2, batch_size=50):
     import numpy as np
     # convert the sets into a numpy array
     X_train_p = np.array(X_train_p)
@@ -44,7 +44,7 @@ def RNN_train(X_train_p, y_train, X_test, y_test, tokenizer, maxlen=50, early_st
     reduce_lr_loss = ReduceLROnPlateau(monitor='val_accuracy', factor=0.2, patience=1, verbose=1, mode='min') 
     
     # patience: 10% of number of epochs. Anyway, it is just for stopping the validation, since we have model checkpoint its doesnt matter
-    batch_size = 50 # lower = slower train, higher = faster train
+    batch_size = batch_size # lower = slower train, higher = faster train
     num_epochs = 10
 
     history = model.fit(X_train_p, y_train, validation_data=(X_test, y_test), 
