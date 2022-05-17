@@ -16,6 +16,12 @@ from datetime import datetime
 # plot 
 import matplotlib.pyplot as plt
 
+import preprocessing as pp
+
+def getTerrierStopwordsList():
+    with open("dataset/terrier_stopwords.txt", "r") as f:
+        return f.read().splitlines()
+
 def skip_gram(corpus):    
     #from collections import defaultdict 
     #import torch
@@ -295,6 +301,83 @@ def lengths_catch(train, test, length_of_sentence=50):
     train_percent = len(train_lengths) / len(train)
     test_percent = len(test_lengths) / len(test)
     return train_percent*100, test_percent*100
+
+
+def grid_search(train_list, test_list, y_train, y_test):
+    simp_contr = [0, 1]
+    gram_cor = [0, 1]
+    simp_neg = [0, 1]
+    lemma = [0] # since the function is wrong - by Gergo
+    rem_stop = [0, 1]
+    basic_preprocessing = 1
+    list_of_data = []
+    for z in simp_contr:
+        for x in gram_cor:
+            for c in simp_neg:
+                for v in lemma:
+                    for b in rem_stop:
+                        train = train_list
+                        test = test_list
+                        if z == 1: # contractions
+                            train = f.simplify_contraction(train)
+                            test = f.simplify_contraction(test)
+                        if basic_preprocessing == 1: # basic preprocessing
+                            train = pp.basic_preprocess(train)
+                            test = pp.basic_preprocess(test)
+                        if x == 1: # grammar correction 
+                            train = pp.grammar_corrector(train)
+                            test = pp.grammar_corrector(test)
+                        if c == 1: # Simnplyfy Negotiation 
+                            train = f.simplify_negation(train)
+                            test = f.simplify_negation(test)
+                        if v == 1: # Lemmatize 
+                            train = pp.lemmatize_sentencelist(train)
+                            test = pp.lemmatize_sentencelist(test)
+                        if b == 1: # Remove stop words
+                            train = pp.remove_stop_words(train)
+                            test = pp.remove_stop_words(test)
+
+                        list_of_data.append([[z, basic_preprocessing, x, c, v, b], train, test]) #
+    return list_of_data, y_train, y_test
+    
+    
+def grid_search_retrain(train_list, test_list, y_train, y_test, possibility_matrix):
+    simp_contr = [possibility_matrix[0]]
+    gram_cor = [possibility_matrix[2]]
+    simp_neg = [possibility_matrix[3]]
+    lemma = [possibility_matrix[4]] # since the function is wrong - by Gergo
+    rem_stop = [possibility_matrix[5]]
+    basic_preprocessing = 1
+    list_of_data = []
+    for z in simp_contr:
+        for x in gram_cor:
+            for c in simp_neg:
+                for v in lemma:
+                    for b in rem_stop:
+                        train = train_list
+                        test = test_list
+                        if z == 1: # contractions
+                            train = simplify_contraction(train)
+                            test = simplify_contraction(test)
+                        if basic_preprocessing == 1: # basic preprocessing
+                            train = pp.basic_preprocess(train)
+                            test = pp.basic_preprocess(test)
+                        if x == 1: # grammar correction 
+                            train = pp.grammar_corrector(train)
+                            test = pp.grammar_corrector(test)
+                        if c == 1: # Simnplyfy Negotiation 
+                            train = simplify_negation(train)
+                            test = simplify_negation(test)
+                        if v == 1: # Lemmatize 
+                            train = pp.lemmatize_sentencelist(train)
+                            test = pp.lemmatize_sentencelist(test)
+                        if b == 1: # Remove stop words
+                            train = pp.remove_stop_words(train)
+                            test = pp.remove_stop_words(test)
+
+                        list_of_data.append([[z, basic_preprocessing, x, c, v, b], train, test]) #
+    return list_of_data, y_train, y_test
+    
 
     ######################### NOTES ##########################    
 ### Reloading a function if its modified in a file
