@@ -18,6 +18,9 @@ import matplotlib.pyplot as plt
 
 import preprocessing as pp
 
+def getTerrierStopwordsList():
+    with open("dataset/terrier_stopwords.txt", "r") as f:
+        return f.read().splitlines()
 
 def skip_gram(corpus):    
     #from collections import defaultdict 
