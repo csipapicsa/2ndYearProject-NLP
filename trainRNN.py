@@ -5,7 +5,7 @@ import functions as f
 import preprocessing as pp
 import neuralnetworks as nn
 
-def trainRNN(data_sets, y_train, y_test, early_stop_patience=2):
+def trainRNN(data_sets, y_train, y_test, early_stop_patience=2, filename="train"):
     ### INIT RESULTS
     results, time = f.init_log_for_training()
     # Sentencies max length:
@@ -59,7 +59,7 @@ def trainRNN(data_sets, y_train, y_test, early_stop_patience=2):
         results = results.append(new_row, ignore_index=True)
         # maybe we dont need it in every round but how knows
         try:
-            results.to_csv("results/re_train_results_"+time+".csv")
+            results.to_csv("results/"+filename+"_results_"+time+".csv")
         except: 
             continue
         f.plot_model_history(history)    
@@ -76,7 +76,7 @@ def trainRNN(data_sets, y_train, y_test, early_stop_patience=2):
     # save results again
     print("Combinations were checked")
     try:
-        results.to_csv("results/results_"+time+".csv")
+        results.to_csv("results/"+filename+"_results_"+time+".csv")
     except:
         pass
         

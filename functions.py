@@ -18,10 +18,6 @@ import matplotlib.pyplot as plt
 
 import preprocessing as pp
 
-def getTerrierStopwordsList():
-    with open("dataset/terrier_stopwords.txt", "r") as f:
-        return f.read().splitlines()
-
 def skip_gram(corpus):    
     #from collections import defaultdict 
     #import torch
@@ -319,8 +315,8 @@ def grid_search(train_list, test_list, y_train, y_test):
                         train = train_list
                         test = test_list
                         if z == 1: # contractions
-                            train = f.simplify_contraction(train)
-                            test = f.simplify_contraction(test)
+                            train = simplify_contraction(train)
+                            test = simplify_contraction(test)
                         if basic_preprocessing == 1: # basic preprocessing
                             train = pp.basic_preprocess(train)
                             test = pp.basic_preprocess(test)
@@ -328,8 +324,8 @@ def grid_search(train_list, test_list, y_train, y_test):
                             train = pp.grammar_corrector(train)
                             test = pp.grammar_corrector(test)
                         if c == 1: # Simnplyfy Negotiation 
-                            train = f.simplify_negation(train)
-                            test = f.simplify_negation(test)
+                            train = simplify_negation(train)
+                            test = simplify_negation(test)
                         if v == 1: # Lemmatize 
                             train = pp.lemmatize_sentencelist(train)
                             test = pp.lemmatize_sentencelist(test)

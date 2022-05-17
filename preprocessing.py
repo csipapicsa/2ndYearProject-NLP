@@ -37,6 +37,11 @@ sym_spell.load_dictionary(dictionary_path, term_index=0, count_index=1)
 # develop the code 
 from importlib import reload
 
+
+def getTerrierStopwordsList():
+    with open("dataset/terrier_stopwords.txt", "r") as f:
+        return f.read().splitlines()
+
 def sentiment_converter(classes, dictionary):
     classes_converted = []
     for c in classes:
@@ -83,6 +88,9 @@ def remove_stop_words(text):
     'there', 'when', 'where', 'why', 'how', 'all', 'any', 'both', 'each', 'few', 'more',
     'most', 'other', 'some', 'such', 'no', 'nor', 'not', 'only', 'own', 'same', 'so',
     'than', 'too', 'very', 's', 't', 'can', 'will', 'just', 'don', 'should', 'now']
+    
+    # extended stop words
+    stop_words = getTerrierStopwordsList()
 
     clean_text = [] # for the whole set
     length_of_sentencies_counter = []
