@@ -291,7 +291,7 @@ def oldest_combinations():
    "Lemmatize", "Remove Stop Words", "No. of Sentences"]].values
     return past_combinations
 
-def lengths_catch(train, test, length_of_sentence=50):
+def lengths_catch(train, test, length_of_sentence=40):
     train_lengths = [len(word) for word in train if len(word) <= length_of_sentence]
     test_lengths = [len(word) for word in test if len(word) <= length_of_sentence]
     train_percent = len(train_lengths) / len(train)
@@ -374,7 +374,50 @@ def grid_search_retrain(train_list, test_list, y_train, y_test, possibility_matr
                         list_of_data.append([[z, basic_preprocessing, x, c, v, b], train, test]) #
     return list_of_data, y_train, y_test
     
+def statistics_sets_sizes(data_sets, filename="corp_size", max_len=40):
+    results, time = init_log_for_training()
+    # Sentencies max length:
+    for data_set in data_sets:
+        # Tokenizer
+        labels = data_set[0]
+        # check whenever combination is already checked. Working only with RNN!:
+        print("Combinations: ", labels)
 
+        tokenizer = pp.tokenizer_init(data_set[1], data_set[2])
+        corpus_size = len(tokenizer.word_counts)
+
+        ratio_train, ratio_test = lengths_catch(data_set[1], data_set[2], length_of_sentence=max_len)
+
+        new_row = {'Running ID':time, 
+               "Model Name":"-", 
+              "Expand Contractions":labels[0],
+              "Basic Preprocessing":labels[1],
+              "Grammar Correction":labels[2],
+               "Simplify Negotiations": labels[3],
+              "Lemmatize": labels[4],
+              "Remove Stop Words": labels[5],
+              "No. of Sentences": len(data_set[1]),
+                  "Train_sentence_fully_catched_ratio": ratio_train,
+                   "Test_sentence_fully_catched_ratio": ratio_test,
+                   "corpus_size": corpus_size}
+
+        results = results.append(new_row, ignore_index=True)
+        # maybe we dont need it in every round but how knows
+        try:
+            results.to_csv("results/"+filename+"_corp_sizes_"+time+".csv")
+        except: 
+            continue  
+        # CLEAN
+        del labels
+        del tokenizer
+
+    # save results again
+    print("Combinations were checked")
+    try:
+        results.to_csv("results/"+filename+"_corp_sizes_"+time+".csv")
+    except:
+        pass
+    return None
     ######################### NOTES ##########################    
 ### Reloading a function if its modified in a file
 # import functions as f
