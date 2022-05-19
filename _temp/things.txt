@@ -1,0 +1,29 @@
+# need to implement
+
+# define the two model
+### baseline, Hugging Face
+
+# LOG the results in pandas DataframeŰ
+
+# STEPS ORDER for Preprocessing
+# 1. Basic preprocessing - Should be the first step
+# 2. Grammar Correction
+# 3. Simplify Contractions
+# 4. Lemmatize 
+# 5. Remove stop words
+
+# TODO: 
+# 2. Define the technical parameters of the basic NN
+## post tagging 
+## 10k same sentence 
+## first 40 word
+## 
+#### BASE RNN vs Hugging Face 
+# simple pandas dataframe - Columns are preproc methods, 1,0,1, accuracy, etc  
+# 4. Best vs Worst Accuracy settings test on bigger corpus # Bigger test, Train? Dev set ? 
+
+
+
+# tokenizers
+tokenizer, text = pp.tokenizer_train(train_set_clean)
+text = pp.tokenizer_test(dev_sent,tokenizer)

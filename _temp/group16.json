@@ -1,0 +1,101 @@
+{"reviewText": "ok", "sentiment": "positive", "category": "misclassification"}
+{"reviewText": "This is not sad", "sentiment": "positive", "category": "contrary of  adjective"}
+{"reviewText": "I am not happy to see her", "sentiment": "negative", "category": "contrary of  adjective"}
+{"reviewText": "This album is a riot to listen to", "sentiment": "positive", "category": "rare words"}
+{"reviewText": "This CD will enchant anyone", "sentiment": "positive", "category": "rare words"}
+{"reviewText": "I was enthralled by the artists unique style", "sentiment": "positive", "category": "rare words"}
+{"reviewText": "The artist is truly imaginative with his selection of instruments", "sentiment": "positive", "category": "rare words"}
+{"reviewText": "The bagpipe is simply horrendous to listen to", "sentiment": "negative", "category": "rare words"}
+{"reviewText": "simply divine", "sentiment": "positive", "category": "rare words"}
+{"reviewText": "sounds more like the screech of some eldritch abomination than anything else", "sentiment": "negative", "category": "rare words"}
+{"reviewText": "i'd rather listen to the wails of the damned than this", "sentiment": "negative", "category": "rare words"}
+{"reviewText": "I used to love everything composed by this artist, but these latest songs have just been bad overall", "sentiment": "negative", "category": "past and current thoughts"}
+{"reviewText": "This song really surprised me with its quality. I hate all of their previous works but this one is just so good.", "sentiment": "positive", "category": "past and current thoughts"}
+{"reviewText": "I used to listen to this song all day because of how good I thought it was, but after listening to it again i am surprised by how boring it is.", "sentiment": "negative", "category": "past and current thoughts"}
+{"reviewText": "I hated this album when I bought it, but it's actually managed to win me over after listening to it a couple of times", "sentiment": "positive", "category": "past and current thoughts"}
+{"reviewText": "This CD made me relive my breakup from 2 years ago. It amde me want scream and punch someone in the face, and made me cry myself to sleep. Incredible music that truly immerses you in the emotions", "sentiment": "positive", "category": "conflicting sentiments"}
+{"reviewText": "This music made me fail my job interview by keeping me up all night. 10/10", "sentiment": "positive", "category": "conflicting sentiments"}
+{"reviewText": "This album is so ominous that i've been too afraid to go shopping or even turn off the lights for the past 3 days. You absolutely have to listen to this if you are a fan of horror", "sentiment": "positive", "category": "conflicting sentiments"}
+{"reviewText": "I simply can't understand this album. I hate the choice of instruments, the song genres are all over the place, yet the songs are still repetitve, but i just can't stop listening to this and i don't know why", "sentiment": "positive", "category": "conflicting sentiments"}
+{"reviewText": "I should love this CD, the sound quality is amazing, all of the songs are incredibly varied and unique and i'm a big fan of the artist, but for some reason i just hate it. There is just something about it that i can't describe that feels incredibly wrong", "sentiment": "negative", "category": "conflicting sentiments"}
+{"reviewText": "This cd contains some very good songs, however I can't recommend it for the price they are asking for, i mean 200$ for 10 songs that's just plain robbery.", "sentiment": "negative", "category": "conflicting sentiments"}
+{"reviewText": "I love the first song however that's it, and as such I can't recommend it\", \"sentiment", "sentiment": "negative", "category": "conflicting sentiments"}
+{"reviewText": "The first song is simply amazing, and though the rest are simply terrible that first song is simply so good that it makes up for the price on its own", "sentiment": "positive", "category": "conflicting sentiments"}
+{"reviewText": "I usually don't like the piano but this cd simply blew me away", "sentiment": "positive", "category": "conflicting sentiments"}
+{"reviewText": "truly makes you feel as sad as the artist", "sentiment": "positive", "category": "negative description is a compliment"}
+{"reviewText": "actually makes me feel as if i'm being chased by a fearsome monster", "sentiment": "positive", "category": "negative description is a compliment"}
+{"reviewText": "perfectly sets the tone of encountering the vilest most incomprehensible monster you have ever seen", "sentiment": "positive", "category": "negative description is a compliment"}
+{"reviewText": "truly allows you to envision the composers fall into insanity", "sentiment": "positive", "category": "negative description is a compliment"}
+{"reviewText": "I dislike everything about this situation ", "sentiment": "negative", "category": "rare words"}
+{"reviewText": "He said it sucked even though his wife loved it", "sentiment": "negative", "category": "vague"}
+{"reviewText": "I was not so nervous when I hear her to shout with me. After we had conversation about the problem, now everything is more or lessfine", "sentiment": "positive", "category": "past and current thoughts, typo, not clear statement"}
+{"reviewText": "Wow, what a guitar sound! Even I lost my hearing. Maybe I will use this cd as an beer mat", "sentiment": "negative", "category": "sarcasm"}
+{"reviewText": "Its so funky, but it is not written on the cd. I am a metal guy, but still good", "sentiment": "positive", "category": "conflicting sentiments"}
+{"reviewText": "The atmosphere is attractive, but a little uncomfortable. Anyway, the trip was cheap, we are together, so it is good", "sentiment": "positive", "category": "conflicting sentiments"}
+{"reviewText": "Good old days, when we do not have enough money to eat", "sentiment": "negative", "category": "sarcasm"}
+{"reviewText": "Be happy, this is not sad", "sentiment": "positive", "category": "contrary of  adjective"}
+{"reviewText": "Actually I am thinking about to end my life in a sport car", "sentiment": "negative", "category": "strong word cause misclassification"}
+{"reviewText": "The LSD was so interesting, I had a good trip with my friends", "sentiment": "positive", "category": "strong word cause misclassification"}
+{"reviewText": "This is an easy day? Yeah, it is easier than a day in a middle of a war without food and weapon", "sentiment": "negative", "category": "sarcasm"}
+{"reviewText": "Is it a perfect music? This album don't give the answer, don't listen, don't buy and don't waste your time with it", "sentiment": "negative", "category": "contrary of  adjective"}
+{"reviewText": "BAD BAD BAD'! I LOVE IT", "sentiment": "positive", "category": "quoting"}
+{"reviewText": "I spent hours with it. Every track was like a long wrong dream", "sentiment": "negative", "category": "conflict"}
+{"reviewText": "It sounds like an old creepy big green tank. That's what I am waiting from a metal band. GOOOOOOREEEE", "sentiment": "positive", "category": "conflicting sentiments"}
+{"reviewText": "That's what I am waiting from a metal band, It sounds like an old creepy big green tank, low tuned, loud. Just good. GOOOOOOREEEE!!!!", "sentiment": "positive", "category": "conflicting sentiments"}
+{"reviewText": "ok, worth to buy it", "sentiment": "positive", "category": "missing adjective"}
+{"reviewText": "This is  A good song not really my type of music but I listen to it some times, I give it 2to4 stars", "sentiment": "positive", "category": "conflicting sentiments"}
+{"reviewText": "This album is sick nasty! I've been a fan before they even got signed! cannot wait to hear more from these guys, I don't regret buying this album at all, I love every single second of it :]", "sentiment": "positive", "category": "conflicting sentiments"}
+{"reviewText": "Bought for a friend but I didn't care for it. He loved it.", "sentiment": "negative", "category": "conflicting sentiments"}
+{"reviewText": "Cool old song. HOWEVER, I think this is a remixed or re-recorded version. It doesn't seem to have the same punch as the radio versus I hear every once in a while.", "sentiment": "negative", "category": "conflicting sentiments"}
+{"reviewText": "Not bad, but I thought I was downloading the real Carrie Underwood.  I have to look before you leap next time around", "sentiment": "positive", "category": "conflicting sentiments"}
+{"reviewText": "I know you like the lyrics, don't play accismus by pretending otherwise.", "sentiment": "positive", "category": "rare words"}
+{"reviewText": "The entire album it's charmingly anacrhonistic, damn!", "sentiment": "positive", "category": "rare words"}
+{"reviewText": "The concert was sick!", "sentiment": "positive", "category": "negative description is a compliment"}
+{"reviewText": "Their CD's need an uptdate for 2022.", "sentiment": "negative", "category": "sarcasm"}
+{"reviewText": "I like his new song as I like working for free. ", "sentiment": "negative", "category": "sarcasm"}
+{"reviewText": "I used to listen to them but somehow on the way they've lost their skill, right?", "sentiment": "negative", "category": "conflicting sentiments"}
+{"reviewText": "I started listening to them back in 2015 and I am still doing it today on a daily basis!", "sentiment": "positive", "category": "past and present thoughts"}
+{"reviewText": "When I listen to their songs I feel amazingly terrified and excited!", "sentiment": "positive", "category": "negative description is a compliment"}
+{"reviewText": "They started singing in a small room making incredible albums but now they make soo much money that they forgot about the music.", "sentiment": "negative", "category": "conflicting sentiments"}
+{"reviewText": "I do not like rock&roll, but they are something else!", "sentiment": "positive", "category": "negative description is a compliment"}
+{"reviewText": "They were rockin' in their first album, but no other songs were published since!", "sentiment": "negative", "category": "past and present thoughts"}
+{"reviewText": "It is hard to even reproduce their work in their first 3 albums!", "sentiment": "positive", "category": "negative description is a compliment"}
+{"reviewText": "The band gave a nice display in the end of the show, but that was it all.", "sentiment": "negative", "category": "conflicting sentiments"}
+{"reviewText": "The band barely had any fans in the beggining, but for sure are popular now!", "sentiment": "positive", "category": "past and present thoughts"}
+{"reviewText": "The solist changed bands a couple of times, some would say it helped but I'm not sure about that.", "sentiment": "negative", "category": "conflicting sentiments"}
+{"reviewText": "The song is played adagio with little dynamics here and there. ", "sentiment": "positive", "category": "rare words"}
+{"reviewText": "Their music now is as good as a dead horse. ", "sentiment": "negative", "category": "sarcasm"}
+{"reviewText": "They play soo aggresive and wild!", "sentiment": "positive", "category": "contrary of adjective"}
+{"reviewText": "The quitarist displayed such talent in his prime and he still has a hang of it!", "sentiment": "positive", "category": "past and present thoughts"}
+{"reviewText": "I feel the band was born in the wrong decade!", "sentiment": "positive", "category": "contrary of adjective"}
+{"reviewText": "The song feels unreal! It makes you feel the exact same emotion as the artist! Pure sorrow!", "sentiment": "positive", "category": "negative description is a compliment"}
+{"reviewText": "Their first vynil was sold in a matter of time, while now they barely have any concerts. Such a pity!", "sentiment": "positive", "category": "past and present thoughts"}
+{"reviewText": "The two solists are amazing but the drums guy is so bad, I don't kow what to say about this formation. For now I will listen to what I know and like. ", "sentiment": "negative", "category": "conflicting sentiments"}
+{"reviewText": "They've had concerts all over the world, but a real concert is not even near close!", "sentiment": "negative", "category": "sarcasm"}
+{"reviewText": "My parents introduced me to their genre and it was great, but after the pianist died no more good songs from their part. ", "sentiment": "negative", "category": "conflicting sentiments"}
+{"reviewText": "It's extremely rare that I'm pleasantly surprised and this wasn't one of the rare times that I was", "sentiment": "negative", "category": "conflicting sentiments"}
+{"reviewText": "It sounds like pure torture, what more could you want from a metal band ", "sentiment": "positive", "category": "Negativity interpreted as positive"}
+{"reviewText": "I'm not sure if he enjoyed it or not, but his feelings toward it weren't as warm as I had expected", "sentiment": "negative", "category": "vague"}
+{"reviewText": "It sounds like vomit, but very good vomit", "sentiment": "positive", "category": "Irony"}
+{"reviewText": "My sister hated it so thumbs up", "sentiment": "positive", "category": "conflicting sentiments"}
+{"reviewText": "My sister loved it so thumbs down", "sentiment": "negative", "category": "conflicting sentiments"}
+{"reviewText": "I always hated hip hop and rap so I'm glad to have picked this album up", "sentiment": "positive", "category": "conflicting sentiments"}
+{"reviewText": "This album sure is like a never ending story", "sentiment": "negative", "category": "vague"}
+{"reviewText": "Idk, is this good or bad. I feel like every artist has something important to say. Perhaps not all, but I guess it applies to this one or whatever", "sentiment": "positive", "category": "vague"}
+{"reviewText": "This shit made me break up with my first cousin long live punk rock", "sentiment": "positive", "category": "conflicting sentiments"}
+{"reviewText": "12/10", "sentiment": "positive", "category": "vague"}
+{"reviewText": "5/100", "sentiment": "negative", "category": "vague"}
+{"reviewText": "I hate everything I listen to except this one", "sentiment": "positive", "category": "negative words "}
+{"reviewText": "This lullaby makes me fall asleep so fast", "sentiment": "positive", "category": "sounds negative"}
+{"reviewText": "Sadly this is not good even though italian is a lovely language", "sentiment": "negative", "category": "sounds positive"}
+{"reviewText": "I never liked the more popular recordings of Bernstein, he's an arrogant jewish faggot. Davis recordings (including this one) are superior, even though his breathing can be heard over the orchestra.", "sentiment": "positive", "category": "hate speech along with compliment"}
+{"reviewText": "I'm sure Hitler would have loved this.", "sentiment": "negative", "category": "Cultural reference "}
+{"reviewText": "I'm on the fence, but my deaf uncle digs it", "sentiment": "negative", "category": "Difficult qualifier"}
+{"reviewText": "Sounds like Schoenberg", "sentiment": "negative", "category": "Cultural reference "}
+{"reviewText": "I actually like it a lot but my friends think it's lame so I pretend to hate it", "sentiment": "positive", "category": "conflicting sentiments"}
+{"reviewText": "My father hates it so I moved out at 16", "sentiment": "positive", "category": "No positive words"}
+{"reviewText": "10/10 for lyrical content 0/10 for everything else", "sentiment": "negative", "category": "conflicting sentiments"}
+{"reviewText": "Worth every dollar that I luckily didn't spend on it ", "sentiment": "positive", "category": "Difficult qualifier"}
+{"reviewText": "It's the only album they released this decade and that's good", "sentiment": "negative", "category": "vague"}
+{"reviewText": "So sad that the singer killed himself", "sentiment": "positive", "category": "vague"}
+{"reviewText": "So glad that the singer killed himself", "sentiment": "negative", "category": "vague "}
