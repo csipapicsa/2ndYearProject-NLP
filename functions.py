@@ -215,22 +215,44 @@ def json_divide(json_file):
     return train_sent, train_sentiment, train_idx, missing_indexies
     
 
+######## old one, doesn't use pos tags
+# def lemmatize_sentencelist(sentencelist): 
+#     wnl = WordNetLemmatizer()
+#     lemmatized_sentences = []
+#     for sentence in sentencelist: 
+#         #print(sentence)
+#         temp_sentence = []
+#         if type(sentence) == str:
+#             #print("its a string")
+#             temp_sentence = [wnl.lemmatize(word) for word in sentence.split(" ")]
+#             #print(temp_sentence)
+#             #lemmatized_sentences.append(" ".join(temp_sentence))
+#             lemmatized_sentences.append(temp_sentence)
+#         else:
+#             temp_sentence = [wnl.lemmatize(word) for word in sentence]
+#             lemmatized_sentences.append(temp_sentence)
+#     return lemmatized_sentences
 
-def lemmatize_sentencelist(sentencelist): 
+# helper function for lemmatize_sentencelist
+def get_wordnet_pos(postag):
+    if postag.startswith('J'):
+        return wordnet.ADJ
+    elif postag.startswith('V'):
+        return wordnet.VERB
+    elif postag.startswith('N'):
+        return wordnet.NOUN
+    elif postag.startswith('R'):
+        return wordnet.ADV
+    else:
+        # As default pos in lemmatization is Noun
+        return wordnet.NOUN
+# NEW ONE WITH POS_TAGS   
+def lemmatize_sentencelist(sentencelist):
     wnl = WordNetLemmatizer()
     lemmatized_sentences = []
-    for sentence in sentencelist: 
-        #print(sentence)
-        temp_sentence = []
-        if type(sentence) == str:
-            #print("its a string")
-            temp_sentence = [wnl.lemmatize(word) for word in sentence.split(" ")]
-            #print(temp_sentence)
-            #lemmatized_sentences.append(" ".join(temp_sentence))
-            lemmatized_sentences.append(temp_sentence)
-        else:
-            temp_sentence = [wnl.lemmatize(word) for word in sentence]
-            lemmatized_sentences.append(temp_sentence)
+    for s in sentencelist: 
+        pos_s = nltk.pos_tag(s.split())
+        lemmatized_sentences.append(" ".join([wnl.lemmatize(w[0], get_wordnet_pos(w[1])) for w in pos_s]))
     return lemmatized_sentences
 
 #only works for english
