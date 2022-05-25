@@ -1,3 +1,5 @@
+import imports as i
+
 # Read-in the files numbers module
 import sys
 # read-ins
@@ -19,7 +21,7 @@ import matplotlib.pyplot as plt
 import preprocessing as pp
 
 # lemma init
-wnl = WordNetLemmatizer()
+wnl = i.WordNetLemmatizer()
 
 def skip_gram(corpus):    
     #from collections import defaultdict 
