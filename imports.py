@@ -31,6 +31,12 @@ import re
 from keras.preprocessing.text import Tokenizer
 from collections import defaultdict
 
+import nltk
+nltk.download("wordnet") 
+nltk.download("averaged_perceptron_tagger")
+from nltk.corpus import wordnet
+from nltk.stem import WordNetLemmatizer
+
 # spelling correction
 import pkg_resources
 from symspellpy.symspellpy import SymSpell, Verbosity
