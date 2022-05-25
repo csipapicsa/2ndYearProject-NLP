@@ -425,7 +425,7 @@ def statistics_sets_sizes(data_sets, filename="corp_size", max_len=40):
                   "Train_sentence_fully_catched_ratio": ratio_train,
                    "Test_sentence_fully_catched_ratio": ratio_test,
                    "corpus_size": corpus_size,
-                   "label_array": str(labels)}}
+                   "label_array": str(labels)}
 
         results = results.append(new_row, ignore_index=True)
         # maybe we dont need it in every round but how knows
