@@ -18,6 +18,9 @@ import matplotlib.pyplot as plt
 
 import preprocessing as pp
 
+# lemma init
+wnl = WordNetLemmatizer()
+
 def skip_gram(corpus):    
     #from collections import defaultdict 
     #import torch
@@ -248,9 +251,9 @@ def get_wordnet_pos(postag):
         return wordnet.NOUN
 # NEW ONE WITH POS_TAGS   
 def lemmatize_sentencelist(sentencelist):
-    wnl = WordNetLemmatizer()
     lemmatized_sentences = []
     for s in sentencelist: 
+        s = s.lower()
         pos_s = nltk.pos_tag(s.split())
         lemmatized_sentences.append(" ".join([wnl.lemmatize(w[0], get_wordnet_pos(w[1])) for w in pos_s]))
     return lemmatized_sentences
@@ -325,7 +328,7 @@ def grid_search(train_list, test_list, y_train, y_test):
     simp_contr = [0, 1]
     gram_cor = [0, 1]
     simp_neg = [0, 1]
-    lemma = [0] # since the function is wrong - by Gergo
+    lemma = [0,1] # since the function is wrong - by Gergo
     rem_stop = [0, 1]
     basic_preprocessing = 1
     list_of_data = []
@@ -421,7 +424,8 @@ def statistics_sets_sizes(data_sets, filename="corp_size", max_len=40):
               "No. of Sentences": len(data_set[1]),
                   "Train_sentence_fully_catched_ratio": ratio_train,
                    "Test_sentence_fully_catched_ratio": ratio_test,
-                   "corpus_size": corpus_size}
+                   "corpus_size": corpus_size,
+                   "label_array": str(labels)}}
 
         results = results.append(new_row, ignore_index=True)
         # maybe we dont need it in every round but how knows
