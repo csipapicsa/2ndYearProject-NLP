@@ -1,4 +1,4 @@
-Running ID,Model Name,Expand Contractions,Basic Preprocessing,Grammar Correction,Simplify Negotiations,Lemmatize,Remove Stop Words,No. of Sentences,Train Accuracy STOP,Test Accuracy STOP,Train Loss STOP,Test Loss STOP,Train_sentence_fully_catched_ratio,Test_sentence_fully_catched_ratio,Length of Sentence,Batch size of RNN,label_array,corpus_size
+Running ID,Model Name,Expand Contractions,Basic Preprocessing,Grammar Correction,Simplify Negotiations,Lemmatize,Remove Stop Words,No. of Sentences,Train Accuracy STOP,Test Accuracy STOP,Train Loss STOP,Test Loss STOP,Train_sentence_fully_catched_ratio,Test_sentence_fully_catched_ratio,Length of Sentence,Batch size of RNN,label_array,Vocabulary Size
 2022-5-23-18-19-40,RNN,1,1,1,0,0,1,30000,0.676466644,0.664465785,2.418525457,1.11956811,91.56333333,94.15766307,70,25,"[1, 1, 1, 0, 0, 1]",29341
 2022-5-23-18-19-40,RNN,0,1,1,0,0,1,30000,0.637933314,0.668867528,1.57899332,4.077804565,91.52333333,94.08763505,70,25,"[0, 1, 1, 0, 0, 1]",29370
 2022-5-23-22-30-22,RNN,0,1,0,0,0,1,30000,0.656499982,0.710284114,1.47238028,4.147665501,89.42333333,92.5170068,70,25,"[0, 1, 0, 0, 0, 1]",41498
