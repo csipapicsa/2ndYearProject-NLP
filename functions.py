@@ -430,7 +430,9 @@ def statistics_sets_sizes(data_sets, filename="corp_size", max_len=40):
                    "label_array": str(labels)}
 
         results = results.append(new_row, ignore_index=True)
+        print("Ratio of fully catched sentences \n on the Train set: " + str(ratio_train)[0:4] + "\n on the test set: ", str(ratio_test)[0:4])
         # maybe we dont need it in every round but how knows
+        print("##############")
         try:
             results.to_csv("results/"+filename+"_corp_sizes_"+time+".csv")
         except: 
