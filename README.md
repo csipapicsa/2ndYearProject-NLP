@@ -1,11 +1,11 @@
 # 2ndYearProject-NLP
-2nd Year Projects - Group ##
+2nd Year Projects - Group 16
 by Gergo Gyori,  Constantin-Bogdan Craciun,   Jacob Andreas Sneding Rohde,   Nicki Andersen
 
 {gegy, cocr, jacro, nican}@itu.dk
 
 ## Project description
-In this project we train different models and each one is trained and run on multiple sets of data, with the difference between each data set being the preprocessing done on the original data.
+In this project we train a LSTM and Bert model and each one is trained and run on multiple sets of data, with the difference between each data set being the preprocessing done on the original data.
 The goal of this project is to examine how different combinations of preprocessing methods affect the sentiment
 analysis accuracy through a simple RNN model and how it compares to a Hugging Face transformers model without heavy preprocessing.
 
