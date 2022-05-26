@@ -330,7 +330,7 @@ def grid_search(train_list, test_list, y_train, y_test):
     simp_contr = [0, 1]
     gram_cor = [0, 1]
     simp_neg = [0, 1]
-    lemma = [0,1] # since the function is wrong - by Gergo
+    lemma = [0,1]
     rem_stop = [0, 1]
     basic_preprocessing = 1
     list_of_data = []
@@ -368,7 +368,7 @@ def grid_search_retrain(train_list, test_list, y_train, y_test, possibility_matr
     simp_contr = [possibility_matrix[0]]
     gram_cor = [possibility_matrix[2]]
     simp_neg = [possibility_matrix[3]]
-    lemma = [possibility_matrix[4]] # since the function is wrong - by Gergo
+    lemma = [possibility_matrix[4]]
     rem_stop = [possibility_matrix[5]]
     basic_preprocessing = 1
     list_of_data = []
