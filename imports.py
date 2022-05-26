@@ -57,6 +57,7 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
 from sklearn.pipeline import Pipeline
+import tensorflow_hub as hub
 
 # develop
 from importlib import reload
