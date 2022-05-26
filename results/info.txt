@@ -1,2 +1,0 @@
-until 22:00 12-50: Every result was running with batch size 50 for RNN, its modified now
-until 22:51 : lemmatize always off, since the function is wrong. It was ON until now.
