@@ -1,2 +1,0 @@
-,Running ID,Model Name,Expand Contractions,Basic Preprocessing,Grammar Correction,Simplify Negotiations,Lemmatize,Remove Stop Words,No. of Sentences,Train Accuracy STOP,Test Accuracy STOP,Train Loss STOP,Test Loss STOP,Train_sentence_fully_catched_ratio,Test_sentence_fully_catched_ratio,Length of Sentence,Batch size of RNN
-0,2022-5-17-14-57-43,RNN,0,1,1,0,0,1,5000,0.9061999917030334,0.8232293128967285,0.27047815918922424,0.5389119982719421,84.8,86.71468587434974,40,25
