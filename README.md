@@ -1,6 +1,7 @@
 # 2ndYearProject-NLP
 2nd Year Projects - Group ##
 by Gergo Gyori,  Constantin-Bogdan Craciun,   Jacob Andreas Sneding Rohde,   Nicki Andersen
+
 {gegy, cocr, jacro, nican}@itu.dk
 
 ## Project description
