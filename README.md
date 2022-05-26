@@ -10,8 +10,10 @@ The goal of this project is to examine how different combinations of preprocessi
 analysis accuracy through a simple RNN model and how it compares to a Hugging Face transformers model without heavy preprocessing.
 
 ## How to run
-In order to reproduce our results you must run the "LSTM model", "Bert Uncased" notebooks in order to create, train and test the respective models, and save a csv file for the LSTM and 1 for the Bert model containing the test results inside the "results" folder.
+In order to reproduce our results you must run the "LSTM model" notebook in order to create, train and test the respective models, and save a csv file for the LSTM model containing the test results inside the "results" folder.
 
 Afterwards you need to change the "path" value in the "Result Viz" notebook to your newly created csv file and then simply run the "Result Viz" notebook in order to view the result figures.
 
-Our final test results are already saved inside the results folder should you be interested in viewing them.
+To get the BERT models accuracy simply run the "Bert Uncased" notebook.
+
+Our final LSTM test results are already saved inside the results folder should you be interested in viewing them.
